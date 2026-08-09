@@ -1,0 +1,2 @@
+gcc -O0 -no-pie head.c -o head_O0
+gcc -O0 -no-pie cut.c -o cut_O0

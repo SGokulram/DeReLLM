@@ -1,0 +1,1162 @@
+[
+  {
+    "function": "_init",
+    "pseudocode": "\\nint _init(EVP_PKEY_CTX *ctx)\\n\\n{\\n  undefined *puVar1;\\n  \\n  puVar1 = PTR___gmon_start___00410fe0;\\n  if (PTR___gmon_start___00410fe0 != (undefined *)0x0) {\\n    puVar1 = (undefined *)(*(code *)PTR___gmon_start___00410fe0)();\\n  }\\n  return (int)puVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "FUN_00400360",
+    "pseudocode": "\\nvoid FUN_00400360(void)\\n\\n{\\n  (*(code *)PTR_00410ff8)();\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "free",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid free(void *__ptr)\\n\\n{\\n  (*(code *)PTR_free_00411000)();\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "utimensat",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint utimensat(int __fd,char *__path,timespec *__times,int __flags)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_utimensat_00411008)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "putchar",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint putchar(int __c)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_putchar_00411010)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "abort",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid abort(void)\\n\\n{\\n  (*(code *)PTR_abort_00411018)();\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "__errno_location",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint * __errno_location(void)\\n\\n{\\n  int *piVar1;\\n  \\n  piVar1 = (int *)(*(code *)PTR___errno_location_00411020)();\\n  return piVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "unlink",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint unlink(char *__name)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_unlink_00411028)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "strncmp",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint strncmp(char *__s1,char *__s2,size_t __n)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_strncmp_00411030)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "mkdir",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint mkdir(char *__path,__mode_t __mode)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_mkdir_00411038)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "toupper",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint toupper(int __c)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_toupper_00411040)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "unlinkat",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint unlinkat(int __fd,char *__name,int __flag)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_unlinkat_00411048)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "ferror",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint ferror(FILE *__stream)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_ferror_00411050)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "isatty",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint isatty(int __fd)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_isatty_00411058)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "strtod",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\ndouble strtod(char *__nptr,char **__endptr)\\n\\n{\\n  double dVar1;\\n  \\n  dVar1 = (double)(*(code *)PTR_strtod_00411060)();\\n  return dVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "faccessat",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint faccessat(int __fd,char *__file,int __type,int __flag)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_faccessat_00411068)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "readlink",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nssize_t readlink(char *__path,char *__buf,size_t __len)\\n\\n{\\n  ssize_t sVar1;\\n  \\n  sVar1 = (*(code *)PTR_readlink_00411070)();\\n  return sVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "write",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nssize_t write(int __fd,void *__buf,size_t __n)\\n\\n{\\n  ssize_t sVar1;\\n  \\n  sVar1 = (*(code *)PTR_write_00411078)();\\n  return sVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "fclose",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fclose(FILE *__stream)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_fclose_00411080)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "opendir",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nDIR * opendir(char *__name)\\n\\n{\\n  DIR *pDVar1;\\n  \\n  pDVar1 = (DIR *)(*(code *)PTR_opendir_00411088)();\\n  return pDVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "strlen",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nsize_t strlen(char *__s)\\n\\n{\\n  size_t sVar1;\\n  \\n  sVar1 = (*(code *)PTR_strlen_00411090)();\\n  return sVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "openat",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint openat(int __fd,char *__file,int __oflag,...)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_openat_00411098)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "strchr",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * strchr(char *__s,int __c)\\n\\n{\\n  char *pcVar1;\\n  \\n  pcVar1 = (char *)(*(code *)PTR_strchr_004110a0)();\\n  return pcVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "printf",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint printf(char *__format,...)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_printf_004110a8)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "symlink",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint symlink(char *__from,char *__to)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_symlink_004110b0)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "snprintf",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint snprintf(char *__s,size_t __maxlen,char *__format,...)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_snprintf_004110b8)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "__isoc23_strtoll",
+    "pseudocode": "\\nvoid __isoc23_strtoll(void)\\n\\n{\\n  (*(code *)PTR___isoc23_strtoll_004110c0)();\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "strrchr",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * strrchr(char *__s,int __c)\\n\\n{\\n  char *pcVar1;\\n  \\n  pcVar1 = (char *)(*(code *)PTR_strrchr_004110c8)();\\n  return pcVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "fputs",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fputs(char *__s,FILE *__stream)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_fputs_004110d0)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "memset",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * memset(void *__s,int __c,size_t __n)\\n\\n{\\n  void *pvVar1;\\n  \\n  pvVar1 = (void *)(*(code *)PTR_memset_004110d8)();\\n  return pvVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "fgetc",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fgetc(FILE *__stream)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_fgetc_004110e0)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "close",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint close(int __fd)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_close_004110e8)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "closedir",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint closedir(DIR *__dirp)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_closedir_004110f0)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "regcomp",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint regcomp(regex_t *__preg,char *__pattern,int __cflags)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_regcomp_004110f8)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "fputc",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fputc(int __c,FILE *__stream)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_fputc_00411100)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "strcspn",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nsize_t strcspn(char *__s,char *__reject)\\n\\n{\\n  size_t sVar1;\\n  \\n  sVar1 = (*(code *)PTR_strcspn_00411108)();\\n  return sVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "memchr",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * memchr(void *__s,int __c,size_t __n)\\n\\n{\\n  void *pvVar1;\\n  \\n  pvVar1 = (void *)(*(code *)PTR_memchr_00411110)();\\n  return pvVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "read",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nssize_t read(int __fd,void *__buf,size_t __nbytes)\\n\\n{\\n  ssize_t sVar1;\\n  \\n  sVar1 = (*(code *)PTR_read_00411118)();\\n  return sVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "strndup",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * strndup(char *__string,size_t __n)\\n\\n{\\n  char *pcVar1;\\n  \\n  pcVar1 = (char *)(*(code *)PTR_strndup_00411120)();\\n  return pcVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "memcmp",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint memcmp(void *__s1,void *__s2,size_t __n)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_memcmp_00411128)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "calloc",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * calloc(size_t __nmemb,size_t __size)\\n\\n{\\n  void *pvVar1;\\n  \\n  pvVar1 = (void *)(*(code *)PTR_calloc_00411130)();\\n  return pvVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "strcmp",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint strcmp(char *__s1,char *__s2)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_strcmp_00411138)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "getchar",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint getchar(void)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_getchar_00411140)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "fprintf",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fprintf(FILE *__stream,char *__format,...)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_fprintf_00411148)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "umask",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\n__mode_t umask(__mode_t __mask)\\n\\n{\\n  __mode_t _Var1;\\n  \\n  _Var1 = (*(code *)PTR_umask_00411150)();\\n  return _Var1;\\n}\\n\\n"
+  },
+  {
+    "function": "stat",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint stat(char *__file,stat *__buf)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_stat_00411158)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "mknod",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint mknod(char *__path,__mode_t __mode,__dev_t __dev)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_mknod_00411160)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "memcpy",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * memcpy(void *__dest,void *__src,size_t __n)\\n\\n{\\n  void *pvVar1;\\n  \\n  pvVar1 = (void *)(*(code *)PTR_memcpy_00411168)();\\n  return pvVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "regerror",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nsize_t regerror(int __errcode,regex_t *__preg,char *__errbuf,size_t __errbuf_size)\\n\\n{\\n  size_t sVar1;\\n  \\n  sVar1 = (*(code *)PTR_regerror_00411170)();\\n  return sVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "__xpg_basename",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * __xpg_basename(char *__path)\\n\\n{\\n  char *pcVar1;\\n  \\n  pcVar1 = (char *)(*(code *)PTR___xpg_basename_00411178)();\\n  return pcVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "__isoc23_strtol",
+    "pseudocode": "\\nvoid __isoc23_strtol(void)\\n\\n{\\n  (*(code *)PTR___isoc23_strtol_00411180)();\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "readdir",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\ndirent * readdir(DIR *__dirp)\\n\\n{\\n  dirent *pdVar1;\\n  \\n  pdVar1 = (dirent *)(*(code *)PTR_readdir_00411188)();\\n  return pdVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "tolower",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint tolower(int __c)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_tolower_00411190)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "malloc",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * malloc(size_t __size)\\n\\n{\\n  void *pvVar1;\\n  \\n  pvVar1 = (void *)(*(code *)PTR_malloc_00411198)();\\n  return pvVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "strncasecmp",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint strncasecmp(char *__s1,char *__s2,size_t __n)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_strncasecmp_004111a0)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "fflush",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fflush(FILE *__stream)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_fflush_004111a8)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "lchown",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint lchown(char *__file,__uid_t __owner,__gid_t __group)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_lchown_004111b0)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "chown",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint chown(char *__file,__uid_t __owner,__gid_t __group)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_chown_004111b8)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "realloc",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * realloc(void *__ptr,size_t __size)\\n\\n{\\n  void *pvVar1;\\n  \\n  pvVar1 = (void *)(*(code *)PTR_realloc_004111c0)();\\n  return pvVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "chmod",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint chmod(char *__file,__mode_t __mode)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_chmod_004111c8)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "open",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint open(char *__file,int __oflag,...)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_open_004111d0)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "access",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint access(char *__name,int __type)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_access_004111d8)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "fopen",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nFILE * fopen(char *__filename,char *__modes)\\n\\n{\\n  FILE *pFVar1;\\n  \\n  pFVar1 = (FILE *)(*(code *)PTR_fopen_004111e0)();\\n  return pFVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "perror",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid perror(char *__s)\\n\\n{\\n  (*(code *)PTR_perror_004111e8)();\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "vfprintf",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint vfprintf(FILE *__s,char *__format,__gnuc_va_list __arg)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_vfprintf_004111f0)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "fdopendir",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nDIR * fdopendir(int __fd)\\n\\n{\\n  DIR *pDVar1;\\n  \\n  pDVar1 = (DIR *)(*(code *)PTR_fdopendir_004111f8)();\\n  return pDVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "getline",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\n__ssize_t getline(char **__lineptr,size_t *__n,FILE *__stream)\\n\\n{\\n  __ssize_t _Var1;\\n  \\n  _Var1 = (*(code *)PTR_getline_00411200)();\\n  return _Var1;\\n}\\n\\n"
+  },
+  {
+    "function": "creat",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint creat(char *__file,__mode_t __mode)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_creat_00411208)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "exit",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid exit(int __status)\\n\\n{\\n  (*(code *)PTR_exit_00411210)();\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "fwrite",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nsize_t fwrite(void *__ptr,size_t __size,size_t __n,FILE *__s)\\n\\n{\\n  size_t sVar1;\\n  \\n  sVar1 = (*(code *)PTR_fwrite_00411218)();\\n  return sVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "bsearch",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * bsearch(void *__key,void *__base,size_t __nmemb,size_t __size,__compar_fn_t __compar)\\n\\n{\\n  void *pvVar1;\\n  \\n  pvVar1 = (void *)(*(code *)PTR_bsearch_00411220)();\\n  return pvVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "strdup",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * strdup(char *__s)\\n\\n{\\n  char *pcVar1;\\n  \\n  pcVar1 = (char *)(*(code *)PTR_strdup_00411228)();\\n  return pcVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "strerror",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * strerror(int __errnum)\\n\\n{\\n  char *pcVar1;\\n  \\n  pcVar1 = (char *)(*(code *)PTR_strerror_00411230)();\\n  return pcVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "strstr",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * strstr(char *__haystack,char *__needle)\\n\\n{\\n  char *pcVar1;\\n  \\n  pcVar1 = (char *)(*(code *)PTR_strstr_00411238)();\\n  return pcVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "fstatat",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fstatat(int __fd,char *__file,stat *__buf,int __flag)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = (*(code *)PTR_fstatat_00411240)();\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "__ctype_b_loc",
+    "pseudocode": "\\n/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nushort ** __ctype_b_loc(void)\\n\\n{\\n  ushort **ppuVar1;\\n  \\n  ppuVar1 = (ushort **)(*_DAT_00411248)();\\n  return ppuVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "_start",
+    "pseudocode": "\\nvoid processEntry _start(undefined8 param_1,undefined8 param_2)\\n\\n{\\n  undefined1 auStack_8 [8];\\n  \\n  (*(code *)PTR___libc_start_main_00410fd8)(main,param_2,&stack0x00000008,0,0,param_1,auStack_8);\\n  do {\\n                    /* WARNING: Do nothing block with infinite loop */\\n  } while( true );\\n}\\n\\n"
+  },
+  {
+    "function": "_dl_relocate_static_pie",
+    "pseudocode": "\\nvoid _dl_relocate_static_pie(void)\\n\\n{\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "deregister_tm_clones",
+    "pseudocode": "\\n/* WARNING: Removing unreachable block (ram,0x0040085d) */\\n/* WARNING: Removing unreachable block (ram,0x00400867) */\\n\\nvoid deregister_tm_clones(void)\\n\\n{\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "register_tm_clones",
+    "pseudocode": "\\n/* WARNING: Removing unreachable block (ram,0x0040089f) */\\n/* WARNING: Removing unreachable block (ram,0x004008a9) */\\n\\nvoid register_tm_clones(void)\\n\\n{\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "__do_global_dtors_aux",
+    "pseudocode": "\\nvoid __do_global_dtors_aux(void)\\n\\n{\\n  if (completed_0 == '\\0') {\\n    deregister_tm_clones();\\n    completed_0 = 1;\\n    return;\\n  }\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "frame_dummy",
+    "pseudocode": "\\nvoid frame_dummy(void)\\n\\n{\\n  register_tm_clones();\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "head",
+    "pseudocode": "\\nvoid head(FILE *param_1,undefined8 param_2,ulong param_3)\\n\\n{\\n  int iVar1;\\n  size_t local_28;\\n  char *local_20;\\n  size_t local_18;\\n  ulong local_10;\\n  \\n  local_20 = (char *)0x0;\\n  local_28 = 0;\\n  for (local_10 = 0; local_10 < param_3; local_10 = local_10 + (long)iVar1) {\\n    local_18 = getline(&local_20,&local_28,param_1);\\n    if ((long)local_18 < 1) break;\\n    fwrite(local_20,1,local_18,stdout);\\n    if ((local_18 == 0) || (local_20[local_18 - 1] != '\\n')) {\\n      iVar1 = 0;\\n    }\\n    else {\\n      iVar1 = 1;\\n    }\\n  }\\n  free(local_20);\\n  iVar1 = ferror(param_1);\\n  if (iVar1 != 0) {\\n    eprintf(\\"
+  },
+  {
+    "function": "usage",
+    "pseudocode": "\\nvoid usage(void)\\n\\n{\\n  eprintf(\\"
+  },
+  {
+    "function": "main",
+    "pseudocode": "\\nuint main(int param_1,undefined8 *param_2)\\n\\n{\\n  char cVar1;\\n  bool bVar2;\\n  long *plVar3;\\n  int iVar4;\\n  uint uVar5;\\n  uint uVar6;\\n  long lVar7;\\n  long *local_58;\\n  int local_4c;\\n  uint local_2c;\\n  FILE *local_28;\\n  undefined8 local_20;\\n  \\n  local_20 = 10;\\n  local_2c = 0;\\n  argv0 = *param_2;\\n  local_58 = param_2 + 1;\\n  local_4c = param_1 + -1;\\n  while( true ) {\\n    plVar3 = local_58;\\n    if (((*local_58 == 0) || (*(char *)*local_58 != '-')) || (*(char *)(*local_58 + 1) == '\\0'))\\n    goto LAB_00400bd9;\\n    if ((*(char *)(*local_58 + 1) == '-') && (*(char *)(*local_58 + 2) == '\\0')) break;\\n    bVar2 = false;\\n    *local_58 = *local_58 + 1;\\n    while (((*(char *)*local_58 != '\\0' && (!bVar2)) && (plVar3 == local_58))) {\\n      cVar1 = *(char *)*local_58;\\n      if (cVar1 < ':') {\\n        if (cVar1 < '0') {\\nLAB_00400b71:\\n          usage();\\n        }\\n        else {\\n          bVar2 = true;\\n          local_20 = estrtonum(*local_58,0,0x7fffffff);\\n        }\\n      }\\n      else {\\n        if (cVar1 != 'n') goto LAB_00400b71;\\n        if ((*(char *)(*local_58 + 1) == '\\0') && (local_58[1] == 0)) {\\n          usage();\\n                    /* WARNING: Subroutine does not return */\\n          abort();\\n        }\\n        bVar2 = true;\\n        if (*(char *)(*local_58 + 1) == '\\0') {\\n          local_4c = local_4c + -1;\\n          local_58 = local_58 + 1;\\n          lVar7 = *local_58;\\n        }\\n        else {\\n          lVar7 = *local_58 + 1;\\n        }\\n        local_20 = estrtonum(lVar7,0,0x7fffffffffffffff);\\n      }\\n      *local_58 = *local_58 + 1;\\n    }\\n    local_4c = local_4c + -1;\\n    local_58 = local_58 + 1;\\n  }\\n  local_58 = local_58 + 1;\\n  local_4c = local_4c + -1;\\nLAB_00400bd9:\\n  if (local_4c == 0) {\\n    head(stdin,\\"
+  },
+  {
+    "function": "concat",
+    "pseudocode": "\\nundefined8 concat(int param_1,undefined8 param_2,undefined4 param_3,undefined8 param_4)\\n\\n{\\n  long lVar1;\\n  undefined1 local_2018 [8200];\\n  ssize_t local_10;\\n  \\n  do {\\n    local_10 = read(param_1,local_2018,0x2000);\\n    if (local_10 < 1) {\\n      if (local_10 < 0) {\\n        weprintf(\\"
+  },
+  {
+    "function": "confirm",
+    "pseudocode": "\\nundefined4\\nconfirm(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,\\n       undefined8 param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8,\\n       undefined8 param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,\\n       undefined8 param_13,undefined8 param_14)\\n\\n{\\n  char in_AL;\\n  undefined4 local_d8;\\n  undefined4 local_d4;\\n  undefined1 *local_d0;\\n  undefined1 *local_c8;\\n  undefined4 local_c0;\\n  int local_bc;\\n  undefined1 local_b8 [8];\\n  undefined8 local_b0;\\n  undefined8 local_a8;\\n  undefined8 local_a0;\\n  undefined8 local_98;\\n  undefined8 local_90;\\n  undefined8 local_88;\\n  undefined8 local_78;\\n  undefined8 local_68;\\n  undefined8 local_58;\\n  undefined8 local_48;\\n  undefined8 local_38;\\n  undefined8 local_28;\\n  undefined8 local_18;\\n  \\n  if (in_AL != '\\0') {\\n    local_88 = param_1;\\n    local_78 = param_2;\\n    local_68 = param_3;\\n    local_58 = param_4;\\n    local_48 = param_5;\\n    local_38 = param_6;\\n    local_28 = param_7;\\n    local_18 = param_8;\\n  }\\n  local_d8 = 8;\\n  local_d4 = 0x30;\\n  local_d0 = &stack0x00000008;\\n  local_c8 = local_b8;\\n  local_b0 = param_10;\\n  local_a8 = param_11;\\n  local_a0 = param_12;\\n  local_98 = param_13;\\n  local_90 = param_14;\\n  xvprintf(param_9,&local_d8);\\n  local_bc = getchar();\\n  if ((local_bc == 0x79) || (local_bc == 0x59)) {\\n    local_c0 = 1;\\n  }\\n  else {\\n    local_c0 = 0;\\n  }\\n  while ((local_bc != 10 && (local_bc != -1))) {\\n    local_bc = getchar();\\n  }\\n  return local_c0;\\n}\\n\\n"
+  },
+  {
+    "function": "cp",
+    "pseudocode": "\\nundefined8 cp(char *param_1,char *param_2,int param_3)\\n\\n{\\n  int iVar1;\\n  int *piVar2;\\n  size_t sVar3;\\n  undefined1 local_30e8 [4096];\\n  undefined1 local_20e8 [4096];\\n  char local_10e8 [4096];\\n  timespec local_e8;\\n  __time_t local_d8;\\n  long local_d0;\\n  stat local_c8;\\n  ssize_t local_30;\\n  dirent *local_28;\\n  DIR *local_20;\\n  int local_14;\\n  int local_10;\\n  int local_c;\\n  \\n  local_10 = 0;\\n  if ((cp_follow == 0x50) || ((cp_follow == 0x48 && (param_3 != 0)))) {\\n    local_10 = 0x100;\\n  }\\n  iVar1 = fstatat(-100,param_1,&local_c8,local_10);\\n  if (iVar1 < 0) {\\n    weprintf(\\"
+  },
+  {
+    "function": "hexdec",
+    "pseudocode": "\\nint hexdec(int param_1)\\n\\n{\\n  if ((param_1 < 0x30) || (0x39 < param_1)) {\\n    if ((param_1 < 0x41) || (0x46 < param_1)) {\\n      if ((param_1 < 0x61) || (0x66 < param_1)) {\\n        param_1 = -1;\\n      }\\n      else {\\n        param_1 = param_1 + -0x57;\\n      }\\n    }\\n    else {\\n      param_1 = param_1 + -0x37;\\n    }\\n  }\\n  else {\\n    param_1 = param_1 + -0x30;\\n  }\\n  return param_1;\\n}\\n\\n"
+  },
+  {
+    "function": "mdcheckline",
+    "pseudocode": "\\nulong mdcheckline(char *param_1,long param_2,ulong param_3)\\n\\n{\\n  char *pcVar1;\\n  int iVar2;\\n  int iVar3;\\n  char *local_20;\\n  ulong local_10;\\n  \\n  local_10 = 0;\\n  local_20 = param_1;\\n  while( true ) {\\n    if (param_3 <= local_10) {\\n      return (ulong)(local_10 == param_3);\\n    }\\n    if (*local_20 == '\\0') {\\n      return 0xffffffff;\\n    }\\n    pcVar1 = local_20 + 1;\\n    iVar2 = hexdec((int)*local_20);\\n    if (iVar2 < 0) {\\n      return 0xffffffff;\\n    }\\n    if (*pcVar1 == '\\0') break;\\n    local_20 = local_20 + 2;\\n    iVar3 = hexdec((int)*pcVar1);\\n    if (iVar3 < 0) {\\n      return 0xffffffff;\\n    }\\n    if ((byte)((byte)(iVar2 << 4) | (byte)iVar3) != *(byte *)(local_10 + param_2)) {\\n      return 0;\\n    }\\n    local_10 = local_10 + 1;\\n  }\\n  return 0xffffffff;\\n}\\n\\n"
+  },
+  {
+    "function": "mdchecklist",
+    "pseudocode": "\\nvoid mdchecklist(FILE *param_1,undefined8 param_2,undefined8 param_3,long param_4,int *param_5,\\n                int *param_6,int *param_7)\\n\\n{\\n  int iVar1;\\n  __ssize_t _Var2;\\n  char *local_30;\\n  size_t local_28;\\n  int local_20;\\n  int local_1c;\\n  char *local_18;\\n  char *local_10;\\n  \\n  local_28 = 0;\\n  local_30 = (char *)0x0;\\n  while( true ) {\\n    _Var2 = getline(&local_30,&local_28,param_1);\\n    if (_Var2 < 1) break;\\n    local_18 = strchr(local_30,0x20);\\n    if ((local_18 == (char *)0x0) || ((local_18[1] != ' ' && (local_18[1] != '*')))) {\\n      *param_5 = *param_5 + 1;\\n    }\\n    else if ((long)local_18 - (long)local_30 == param_4 * 2) {\\n      *local_18 = '\\0';\\n      local_18 = local_18 + 2;\\n      for (local_10 = local_18; ((*local_10 != '\\0' && (*local_10 != '\\n')) && (*local_10 != '\\r'));\\n          local_10 = local_10 + 1) {\\n      }\\n      *local_10 = '\\0';\\n      local_1c = open(local_18,0);\\n      if (local_1c < 0) {\\n        weprintf(\\"
+  },
+  {
+    "function": "cryptcheck",
+    "pseudocode": "\\nundefined4\\ncryptcheck(int param_1,long *param_2,undefined8 param_3,undefined8 param_4,undefined8 param_5)\\n\\n{\\n  undefined *puVar1;\\n  long *local_38;\\n  int local_20;\\n  int local_1c;\\n  int local_18;\\n  undefined4 local_14;\\n  FILE *local_10;\\n  \\n  local_18 = 0;\\n  local_1c = 0;\\n  local_20 = 0;\\n  local_14 = 0;\\n  local_38 = param_2;\\n  if (param_1 == 0) {\\n    mdchecklist(stdin,param_3,param_4,param_5,&local_18,&local_1c,&local_20);\\n  }\\n  else {\\n    for (; *local_38 != 0; local_38 = local_38 + 1) {\\n      if ((*(char *)*local_38 == '-') && (*(char *)(*local_38 + 1) == '\\0')) {\\n        local_10 = stdin;\\nLAB_00401bb2:\\n        mdchecklist(local_10,param_3,param_4,param_5,&local_18,&local_1c,&local_20);\\n        if (local_10 != stdin) {\\n          fclose(local_10);\\n        }\\n      }\\n      else {\\n        local_10 = fopen((char *)*local_38,\\"
+  },
+  {
+    "function": "cryptmain",
+    "pseudocode": "\\nundefined4\\ncryptmain(int param_1,long *param_2,undefined8 param_3,undefined8 param_4,undefined8 param_5)\\n\\n{\\n  int iVar1;\\n  long *local_28;\\n  undefined4 local_10;\\n  int local_c;\\n  \\n  local_10 = 0;\\n  local_28 = param_2;\\n  if (param_1 == 0) {\\n    iVar1 = cryptsum(param_3,0,\\"
+  },
+  {
+    "function": "cryptsum",
+    "pseudocode": "\\nbool cryptsum(undefined8 *param_1,int param_2,undefined8 param_3,undefined8 param_4)\\n\\n{\\n  bool bVar1;\\n  undefined1 local_2018 [8200];\\n  ssize_t local_10;\\n  \\n  (*(code *)*param_1)(param_1[3]);\\n  while( true ) {\\n    local_10 = read(param_2,local_2018,0x2000);\\n    if (local_10 < 1) break;\\n    (*(code *)param_1[1])(param_1[3],local_2018,local_10);\\n  }\\n  bVar1 = -1 < local_10;\\n  if (bVar1) {\\n    (*(code *)param_1[2])(param_1[3],param_4);\\n  }\\n  else {\\n    weprintf(\\"
+  },
+  {
+    "function": "mdprint",
+    "pseudocode": "\\nvoid mdprint(long param_1,undefined8 param_2,ulong param_3)\\n\\n{\\n  ulong local_10;\\n  \\n  for (local_10 = 0; local_10 < param_3; local_10 = local_10 + 1) {\\n    printf(\\"
+  },
+  {
+    "function": "ecalloc",
+    "pseudocode": "\\nvoid ecalloc(undefined8 param_1,undefined8 param_2)\\n\\n{\\n  encalloc(1,param_1,param_2);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "emalloc",
+    "pseudocode": "\\nvoid emalloc(undefined8 param_1)\\n\\n{\\n  enmalloc(1,param_1);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "erealloc",
+    "pseudocode": "\\nvoid erealloc(undefined8 param_1,undefined8 param_2)\\n\\n{\\n  enrealloc(1,param_1,param_2);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "estrdup",
+    "pseudocode": "\\nvoid estrdup(undefined8 param_1)\\n\\n{\\n  enstrdup(1,param_1);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "estrndup",
+    "pseudocode": "\\nvoid estrndup(undefined8 param_1,undefined8 param_2)\\n\\n{\\n  enstrndup(1,param_1,param_2);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "encalloc",
+    "pseudocode": "\\nvoid * encalloc(undefined4 param_1,size_t param_2,size_t param_3)\\n\\n{\\n  void *pvVar1;\\n  \\n  pvVar1 = calloc(param_2,param_3);\\n  if (pvVar1 == (void *)0x0) {\\n    enprintf(param_1,\\"
+  },
+  {
+    "function": "enmalloc",
+    "pseudocode": "\\nvoid * enmalloc(undefined4 param_1,size_t param_2)\\n\\n{\\n  void *pvVar1;\\n  \\n  pvVar1 = malloc(param_2);\\n  if (pvVar1 == (void *)0x0) {\\n    enprintf(param_1,\\"
+  },
+  {
+    "function": "enrealloc",
+    "pseudocode": "\\nvoid * enrealloc(undefined4 param_1,void *param_2,size_t param_3)\\n\\n{\\n  void *pvVar1;\\n  \\n  pvVar1 = realloc(param_2,param_3);\\n  if (pvVar1 == (void *)0x0) {\\n    enprintf(param_1,\\"
+  },
+  {
+    "function": "enstrdup",
+    "pseudocode": "\\nchar * enstrdup(undefined4 param_1,char *param_2)\\n\\n{\\n  char *pcVar1;\\n  \\n  pcVar1 = strdup(param_2);\\n  if (pcVar1 == (char *)0x0) {\\n    enprintf(param_1,\\"
+  },
+  {
+    "function": "enstrndup",
+    "pseudocode": "\\nchar * enstrndup(undefined4 param_1,char *param_2,size_t param_3)\\n\\n{\\n  char *pcVar1;\\n  \\n  pcVar1 = strndup(param_2,param_3);\\n  if (pcVar1 == (char *)0x0) {\\n    enprintf(param_1,\\"
+  },
+  {
+    "function": "enmasse",
+    "pseudocode": "\\nvoid enmasse(int param_1,undefined8 *param_2,undefined8 param_3)\\n\\n{\\n  int iVar1;\\n  char *pcVar2;\\n  int local_10bc;\\n  char local_10b8 [4096];\\n  stat local_b8;\\n  size_t local_20;\\n  uint local_18;\\n  int local_14;\\n  char *local_10;\\n  \\n  if ((param_1 == 2) &&\\n     ((iVar1 = stat((char *)param_2[1],&local_b8), iVar1 != 0 ||\\n      ((local_b8.st_mode & 0xf000) != 0x4000)))) {\\n    fnck(*param_2,param_2[1],param_3,0);\\n    return;\\n  }\\n  if (param_1 == 1) {\\n    local_10 = \\"
+  },
+  {
+    "function": "eprintf",
+    "pseudocode": "\\nvoid eprintf(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,\\n            undefined8 param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8,\\n            undefined8 param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,\\n            undefined8 param_13,undefined8 param_14)\\n\\n{\\n  char in_AL;\\n  undefined4 local_d0;\\n  undefined4 local_cc;\\n  undefined1 *local_c8;\\n  undefined1 *local_c0;\\n  undefined1 local_b8 [8];\\n  undefined8 local_b0;\\n  undefined8 local_a8;\\n  undefined8 local_a0;\\n  undefined8 local_98;\\n  undefined8 local_90;\\n  undefined8 local_88;\\n  undefined8 local_78;\\n  undefined8 local_68;\\n  undefined8 local_58;\\n  undefined8 local_48;\\n  undefined8 local_38;\\n  undefined8 local_28;\\n  undefined8 local_18;\\n  \\n  if (in_AL != '\\0') {\\n    local_88 = param_1;\\n    local_78 = param_2;\\n    local_68 = param_3;\\n    local_58 = param_4;\\n    local_48 = param_5;\\n    local_38 = param_6;\\n    local_28 = param_7;\\n    local_18 = param_8;\\n  }\\n  local_d0 = 8;\\n  local_cc = 0x30;\\n  local_c8 = &stack0x00000008;\\n  local_c0 = local_b8;\\n  local_b0 = param_10;\\n  local_a8 = param_11;\\n  local_a0 = param_12;\\n  local_98 = param_13;\\n  local_90 = param_14;\\n  xvprintf(param_9,&local_d0);\\n                    /* WARNING: Subroutine does not return */\\n  exit(1);\\n}\\n\\n"
+  },
+  {
+    "function": "enprintf",
+    "pseudocode": "\\nvoid enprintf(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,\\n             undefined8 param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8,int param_9\\n             ,undefined8 param_10,undefined8 param_11,undefined8 param_12,undefined8 param_13,\\n             undefined8 param_14)\\n\\n{\\n  char in_AL;\\n  undefined4 local_d0;\\n  undefined4 local_cc;\\n  undefined1 *local_c8;\\n  undefined1 *local_c0;\\n  undefined1 local_b8 [16];\\n  undefined8 local_a8;\\n  undefined8 local_a0;\\n  undefined8 local_98;\\n  undefined8 local_90;\\n  undefined8 local_88;\\n  undefined8 local_78;\\n  undefined8 local_68;\\n  undefined8 local_58;\\n  undefined8 local_48;\\n  undefined8 local_38;\\n  undefined8 local_28;\\n  undefined8 local_18;\\n  \\n  if (in_AL != '\\0') {\\n    local_88 = param_1;\\n    local_78 = param_2;\\n    local_68 = param_3;\\n    local_58 = param_4;\\n    local_48 = param_5;\\n    local_38 = param_6;\\n    local_28 = param_7;\\n    local_18 = param_8;\\n  }\\n  local_d0 = 0x10;\\n  local_cc = 0x30;\\n  local_c8 = &stack0x00000008;\\n  local_c0 = local_b8;\\n  local_a8 = param_11;\\n  local_a0 = param_12;\\n  local_98 = param_13;\\n  local_90 = param_14;\\n  xvprintf(param_10,&local_d0);\\n                    /* WARNING: Subroutine does not return */\\n  exit(param_9);\\n}\\n\\n"
+  },
+  {
+    "function": "weprintf",
+    "pseudocode": "\\nvoid weprintf(undefined8 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,\\n             undefined8 param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8,\\n             undefined8 param_9,undefined8 param_10,undefined8 param_11,undefined8 param_12,\\n             undefined8 param_13,undefined8 param_14)\\n\\n{\\n  char in_AL;\\n  undefined4 local_d0;\\n  undefined4 local_cc;\\n  undefined1 *local_c8;\\n  undefined1 *local_c0;\\n  undefined1 local_b8 [8];\\n  undefined8 local_b0;\\n  undefined8 local_a8;\\n  undefined8 local_a0;\\n  undefined8 local_98;\\n  undefined8 local_90;\\n  undefined8 local_88;\\n  undefined8 local_78;\\n  undefined8 local_68;\\n  undefined8 local_58;\\n  undefined8 local_48;\\n  undefined8 local_38;\\n  undefined8 local_28;\\n  undefined8 local_18;\\n  \\n  if (in_AL != '\\0') {\\n    local_88 = param_1;\\n    local_78 = param_2;\\n    local_68 = param_3;\\n    local_58 = param_4;\\n    local_48 = param_5;\\n    local_38 = param_6;\\n    local_28 = param_7;\\n    local_18 = param_8;\\n  }\\n  local_d0 = 8;\\n  local_cc = 0x30;\\n  local_c8 = &stack0x00000008;\\n  local_c0 = local_b8;\\n  local_b0 = param_10;\\n  local_a8 = param_11;\\n  local_a0 = param_12;\\n  local_98 = param_13;\\n  local_90 = param_14;\\n  xvprintf(param_9,&local_d0);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "xvprintf",
+    "pseudocode": "\\nvoid xvprintf(char *param_1,__gnuc_va_list param_2)\\n\\n{\\n  int iVar1;\\n  size_t sVar2;\\n  \\n  if (argv0 != 0) {\\n    iVar1 = strncmp(param_1,\\"
+  },
+  {
+    "function": "enregcomp",
+    "pseudocode": "\\nint enregcomp(undefined4 param_1,regex_t *param_2,char *param_3,int param_4)\\n\\n{\\n  char local_2018 [8204];\\n  int local_c;\\n  \\n  memset(local_2018,0,0x2000);\\n  local_c = regcomp(param_2,param_3,param_4);\\n  if (local_c != 0) {\\n    regerror(local_c,param_2,local_2018,0x2000);\\n    enprintf(param_1,\\"
+  },
+  {
+    "function": "eregcomp",
+    "pseudocode": "\\nvoid eregcomp(undefined8 param_1,undefined8 param_2,undefined4 param_3)\\n\\n{\\n  enregcomp(1,param_1,param_2,param_3);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "estrtod",
+    "pseudocode": "\\ndouble estrtod(char *param_1)\\n\\n{\\n  char *local_18;\\n  double local_10;\\n  \\n  local_10 = strtod(param_1,&local_18);\\n  if ((param_1 == local_18) || (*local_18 != '\\0')) {\\n    eprintf(\\"
+  },
+  {
+    "function": "fnck",
+    "pseudocode": "\\nvoid fnck(char *param_1,char *param_2,code *param_3,undefined4 param_4)\\n\\n{\\n  int iVar1;\\n  stat local_128;\\n  stat local_98;\\n  \\n  iVar1 = stat(param_1,&local_98);\\n  if ((((iVar1 == 0) && (iVar1 = stat(param_2,&local_128), iVar1 == 0)) &&\\n      (local_98.st_dev == local_128.st_dev)) && (local_98.st_ino == local_128.st_ino)) {\\n    weprintf(\\"
+  },
+  {
+    "function": "fshut",
+    "pseudocode": "\\nbool fshut(FILE *param_1,undefined8 param_2)\\n\\n{\\n  int iVar1;\\n  bool bVar2;\\n  \\n  fflush(param_1);\\n  iVar1 = ferror(param_1);\\n  bVar2 = iVar1 != 0;\\n  if (bVar2) {\\n    weprintf(\\"
+  },
+  {
+    "function": "enfshut",
+    "pseudocode": "\\nvoid enfshut(int param_1,undefined8 param_2,undefined8 param_3)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = fshut(param_2,param_3);\\n  if (iVar1 != 0) {\\n                    /* WARNING: Subroutine does not return */\\n    exit(param_1);\\n  }\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "efshut",
+    "pseudocode": "\\nvoid efshut(undefined8 param_1,undefined8 param_2)\\n\\n{\\n  enfshut(1,param_1,param_2);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "getlines",
+    "pseudocode": "\\nvoid getlines(FILE *param_1,long *param_2)\\n\\n{\\n  size_t __n;\\n  long lVar1;\\n  char *__src;\\n  void *pvVar2;\\n  undefined8 uVar3;\\n  long lVar4;\\n  size_t local_48;\\n  char *local_40;\\n  __ssize_t local_38;\\n  long local_30;\\n  \\n  local_40 = (char *)0x0;\\n  local_48 = 0;\\n  local_30 = 0;\\n  while( true ) {\\n    local_38 = getline(&local_40,&local_48,param_1);\\n    if (local_38 < 1) break;\\n    param_2[1] = param_2[1] + 1;\\n    if ((ulong)param_2[2] < (ulong)param_2[1]) {\\n      param_2[2] = param_2[2] + 0x200;\\n      lVar4 = ereallocarray(*param_2,param_2[2],0x10);\\n      *param_2 = lVar4;\\n    }\\n    __src = local_40;\\n    local_30 = local_38;\\n    __n = local_38 + 1;\\n    pvVar2 = (void *)emalloc(local_38 + 1);\\n    lVar4 = *param_2;\\n    lVar1 = param_2[1];\\n    pvVar2 = memcpy(pvVar2,__src,__n);\\n    *(void **)(lVar4 + lVar1 * 0x10 + -0x10) = pvVar2;\\n    *(long *)(*param_2 + param_2[1] * 0x10 + -8) = local_30;\\n  }\\n  free(local_40);\\n  if ((((*param_2 != 0) && (param_2[1] != 0)) && (local_30 != 0)) &&\\n     (*(char *)(*(long *)(param_2[1] * 0x10 + -0x10 + *param_2) + local_30 + -1) != '\\n')) {\\n    lVar4 = *param_2;\\n    lVar1 = param_2[1];\\n    uVar3 = erealloc(*(undefined8 *)(param_2[1] * 0x10 + -0x10 + *param_2),local_30 + 2);\\n    *(undefined8 *)(lVar4 + lVar1 * 0x10 + -0x10) = uVar3;\\n    *(undefined1 *)(local_30 + *(long *)(param_2[1] * 0x10 + -0x10 + *param_2)) = 10;\\n    *(undefined1 *)(*(long *)(param_2[1] * 0x10 + -0x10 + *param_2) + local_30 + 1) = 0;\\n    lVar4 = param_2[1] * 0x10 + -0x10 + *param_2;\\n    *(long *)(lVar4 + 8) = *(long *)(lVar4 + 8) + 1;\\n  }\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "humansize",
+    "pseudocode": "\\nundefined1 * humansize(long param_1)\\n\\n{\\n  char local_1c [8];\\n  uint local_14;\\n  double local_10;\\n  \\n  builtin_strncpy(local_1c,\\"
+  },
+  {
+    "function": "linecmp",
+    "pseudocode": "\\nint linecmp(undefined8 *param_1,undefined8 *param_2)\\n\\n{\\n  ulong __n;\\n  int local_c;\\n  \\n  __n = param_2[1];\\n  if ((ulong)param_1[1] < (ulong)param_2[1]) {\\n    __n = param_1[1];\\n  }\\n  local_c = memcmp((void *)*param_1,(void *)*param_2,__n);\\n  if (local_c == 0) {\\n    local_c = (int)param_1[1] - (int)param_2[1];\\n  }\\n  return local_c;\\n}\\n\\n"
+  },
+  {
+    "function": "rol",
+    "pseudocode": "\\nuint rol(uint param_1,byte param_2)\\n\\n{\\n  return param_1 << (param_2 & 0x1f) | param_1 >> 0x20 - (param_2 & 0x1f);\\n}\\n\\n"
+  },
+  {
+    "function": "processblock",
+    "pseudocode": "\\nvoid processblock(long param_1,long param_2)\\n\\n{\\n  int iVar1;\\n  uint auStack_68 [19];\\n  uint local_1c;\\n  uint local_18;\\n  uint local_14;\\n  uint local_10;\\n  uint local_c;\\n  \\n  for (local_c = 0; local_c < 0x10; local_c = local_c + 1) {\\n    auStack_68[local_c] = (uint)*(byte *)(param_2 + (ulong)(local_c << 2));\\n    auStack_68[local_c] =\\n         (uint)*(byte *)(param_2 + (ulong)(local_c * 4 + 1)) << 8 | auStack_68[local_c];\\n    auStack_68[local_c] =\\n         (uint)*(byte *)(param_2 + (ulong)(local_c * 4 + 2)) << 0x10 | auStack_68[local_c];\\n    auStack_68[local_c] =\\n         (uint)*(byte *)(param_2 + (ulong)(local_c * 4 + 3)) << 0x18 | auStack_68[local_c];\\n  }\\n  local_10 = *(uint *)(param_1 + 8);\\n  local_14 = *(uint *)(param_1 + 0xc);\\n  local_18 = *(uint *)(param_1 + 0x10);\\n  local_1c = *(uint *)(param_1 + 0x14);\\n  for (local_c = 0; local_c < 0x10; local_c = local_c + 1) {\\n    local_10 = local_10 +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               ((local_18 ^ local_1c) & local_14 ^ local_1c) + auStack_68[local_c];\\n    iVar1 = rol(local_10,7);\\n    local_10 = iVar1 + local_14;\\n    local_c = local_c + 1;\\n    local_1c = local_1c +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               ((local_14 ^ local_18) & iVar1 + local_14 ^ local_18) + auStack_68[local_c];\\n    iVar1 = rol(local_1c,0xc);\\n    local_1c = iVar1 + local_10;\\n    local_c = local_c + 1;\\n    local_18 = local_18 +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               ((local_10 ^ local_14) & iVar1 + local_10 ^ local_14) + auStack_68[local_c];\\n    iVar1 = rol(local_18,0x11);\\n    local_18 = iVar1 + local_1c;\\n    local_c = local_c + 1;\\n    local_14 = local_14 +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               ((local_1c ^ local_10) & iVar1 + local_1c ^ local_10) + auStack_68[local_c];\\n    iVar1 = rol(local_14,0x16);\\n    local_14 = iVar1 + local_18;\\n  }\\n  for (; local_c < 0x20; local_c = local_c + 1) {\\n    local_10 = local_10 +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               ((local_18 ^ local_14) & local_1c ^ local_18) + auStack_68[local_c * 5 + 1 & 0xf];\\n    iVar1 = rol(local_10,5);\\n    local_10 = iVar1 + local_14;\\n    local_c = local_c + 1;\\n    local_1c = local_1c +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               ((local_14 ^ iVar1 + local_14) & local_18 ^ local_14) +\\n               auStack_68[local_c * 5 + 1 & 0xf];\\n    iVar1 = rol(local_1c,9);\\n    local_1c = iVar1 + local_10;\\n    local_c = local_c + 1;\\n    local_18 = local_18 +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               ((local_10 ^ iVar1 + local_10) & local_14 ^ local_10) +\\n               auStack_68[local_c * 5 + 1 & 0xf];\\n    iVar1 = rol(local_18,0xe);\\n    local_18 = iVar1 + local_1c;\\n    local_c = local_c + 1;\\n    local_14 = local_14 +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               ((local_1c ^ iVar1 + local_1c) & local_10 ^ local_1c) +\\n               auStack_68[local_c * 5 + 1 & 0xf];\\n    iVar1 = rol(local_14,0x14);\\n    local_14 = iVar1 + local_18;\\n  }\\n  for (; local_c < 0x30; local_c = local_c + 1) {\\n    local_10 = local_10 +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               (local_14 ^ local_18 ^ local_1c) + auStack_68[local_c * 3 + 5 & 0xf];\\n    iVar1 = rol(local_10,4);\\n    local_10 = iVar1 + local_14;\\n    local_c = local_c + 1;\\n    local_1c = local_1c +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               (iVar1 + local_14 ^ local_14 ^ local_18) + auStack_68[local_c * 3 + 5 & 0xf];\\n    iVar1 = rol(local_1c,0xb);\\n    local_1c = iVar1 + local_10;\\n    local_c = local_c + 1;\\n    local_18 = local_18 +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               (iVar1 + local_10 ^ local_10 ^ local_14) + auStack_68[local_c * 3 + 5 & 0xf];\\n    iVar1 = rol(local_18,0x10);\\n    local_18 = iVar1 + local_1c;\\n    local_c = local_c + 1;\\n    local_14 = local_14 +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               (iVar1 + local_1c ^ local_1c ^ local_10) + auStack_68[local_c * 3 + 5 & 0xf];\\n    iVar1 = rol(local_14,0x17);\\n    local_14 = iVar1 + local_18;\\n  }\\n  for (; local_c < 0x40; local_c = local_c + 1) {\\n    local_10 = local_10 +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               ((~local_1c | local_14) ^ local_18) + auStack_68[local_c * 7 & 0xf];\\n    iVar1 = rol(local_10,6);\\n    local_10 = iVar1 + local_14;\\n    local_c = local_c + 1;\\n    local_1c = local_1c +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               ((~local_18 | iVar1 + local_14) ^ local_14) + auStack_68[local_c * 7 & 0xf];\\n    iVar1 = rol(local_1c,10);\\n    local_1c = iVar1 + local_10;\\n    local_c = local_c + 1;\\n    local_18 = local_18 +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               ((~local_14 | iVar1 + local_10) ^ local_10) + auStack_68[local_c * 7 & 0xf];\\n    iVar1 = rol(local_18,0xf);\\n    local_18 = iVar1 + local_1c;\\n    local_c = local_c + 1;\\n    local_14 = local_14 +\\n               *(int *)(tab + (ulong)local_c * 4) +\\n               ((~local_10 | iVar1 + local_1c) ^ local_1c) + auStack_68[local_c * 7 & 0xf];\\n    iVar1 = rol(local_14,0x15);\\n    local_14 = iVar1 + local_18;\\n  }\\n  *(uint *)(param_1 + 8) = *(int *)(param_1 + 8) + local_10;\\n  *(uint *)(param_1 + 0xc) = *(int *)(param_1 + 0xc) + local_14;\\n  *(uint *)(param_1 + 0x10) = *(int *)(param_1 + 0x10) + local_18;\\n  *(uint *)(param_1 + 0x14) = *(int *)(param_1 + 0x14) + local_1c;\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "pad",
+    "pseudocode": "\\nvoid pad(long *param_1)\\n\\n{\\n  uint uVar1;\\n  uint local_c;\\n  \\n  uVar1 = (uint)*param_1 & 0x3f;\\n  local_c = uVar1 + 1;\\n  *(undefined1 *)((long)param_1 + (ulong)uVar1 + 0x18) = 0x80;\\n  if (0x38 < local_c) {\\n    memset((void *)((long)param_1 + (ulong)local_c + 0x18),0,(ulong)(0x40 - local_c));\\n    local_c = 0;\\n    processblock(param_1,param_1 + 3);\\n  }\\n  memset((void *)((long)param_1 + (ulong)local_c + 0x18),0,(ulong)(0x38 - local_c));\\n  *param_1 = *param_1 * 8;\\n  *(char *)(param_1 + 10) = (char)*param_1;\\n  *(char *)((long)param_1 + 0x51) = (char)((ulong)*param_1 >> 8);\\n  *(char *)((long)param_1 + 0x52) = (char)((ulong)*param_1 >> 0x10);\\n  *(char *)((long)param_1 + 0x53) = (char)((ulong)*param_1 >> 0x18);\\n  *(char *)((long)param_1 + 0x54) = (char)((ulong)*param_1 >> 0x20);\\n  *(char *)((long)param_1 + 0x55) = (char)((ulong)*param_1 >> 0x28);\\n  *(char *)((long)param_1 + 0x56) = (char)((ulong)*param_1 >> 0x30);\\n  *(char *)((long)param_1 + 0x57) = (char)((ulong)*param_1 >> 0x38);\\n  processblock(param_1,param_1 + 3);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "md5_init",
+    "pseudocode": "\\nvoid md5_init(undefined8 *param_1)\\n\\n{\\n  *param_1 = 0;\\n  *(undefined4 *)(param_1 + 1) = 0x67452301;\\n  *(undefined4 *)((long)param_1 + 0xc) = 0xefcdab89;\\n  *(undefined4 *)(param_1 + 2) = 0x98badcfe;\\n  *(undefined4 *)((long)param_1 + 0x14) = 0x10325476;\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "md5_sum",
+    "pseudocode": "\\nvoid md5_sum(long param_1,long param_2)\\n\\n{\\n  undefined4 local_c;\\n  \\n  pad(param_1);\\n  for (local_c = 0; local_c < 4; local_c = local_c + 1) {\\n    *(char *)(param_2 + (local_c << 2)) = (char)*(undefined4 *)(param_1 + 8 + (long)local_c * 4);\\n    *(char *)(param_2 + (long)(local_c << 2) + 1) =\\n         (char)((uint)*(undefined4 *)(param_1 + 8 + (long)local_c * 4) >> 8);\\n    *(char *)(param_2 + (long)(local_c << 2) + 2) =\\n         (char)((uint)*(undefined4 *)(param_1 + 8 + (long)local_c * 4) >> 0x10);\\n    *(char *)(param_2 + (long)(local_c << 2) + 3) =\\n         (char)((uint)*(undefined4 *)(param_1 + 8 + (long)local_c * 4) >> 0x18);\\n  }\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "md5_update",
+    "pseudocode": "\\nvoid md5_update(ulong *param_1,void *param_2,ulong param_3)\\n\\n{\\n  ulong uVar1;\\n  uint uVar2;\\n  ulong local_40;\\n  void *local_10;\\n  \\n  uVar1 = *param_1;\\n  uVar2 = (uint)uVar1 & 0x3f;\\n  *param_1 = *param_1 + param_3;\\n  local_40 = param_3;\\n  local_10 = param_2;\\n  if ((uVar1 & 0x3f) != 0) {\\n    if (param_3 < 0x40 - uVar2) {\\n      memcpy((void *)((long)param_1 + (ulong)uVar2 + 0x18),param_2,param_3);\\n      return;\\n    }\\n    memcpy((void *)((long)param_1 + (ulong)uVar2 + 0x18),param_2,(ulong)(0x40 - uVar2));\\n    local_40 = param_3 - (0x40 - uVar2);\\n    local_10 = (void *)((long)param_2 + (ulong)(0x40 - uVar2));\\n    processblock(param_1,param_1 + 3);\\n  }\\n  for (; 0x3f < local_40; local_40 = local_40 - 0x40) {\\n    processblock(param_1,local_10);\\n    local_10 = (void *)((long)local_10 + 0x40);\\n  }\\n  memcpy(param_1 + 3,local_10,local_40);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "xmemmem",
+    "pseudocode": "\\nchar * xmemmem(char *param_1,ulong param_2,char *param_3,ulong param_4)\\n\\n{\\n  int iVar1;\\n  char *local_10;\\n  \\n  if (param_4 != 0) {\\n    if (param_2 < param_4) {\\n      param_1 = (char *)0x0;\\n    }\\n    else if (param_4 == 1) {\\n      param_1 = (char *)memchr(param_1,(int)*param_3,param_2);\\n    }\\n    else {\\n      for (local_10 = param_1; local_10 <= param_1 + (param_2 - param_4); local_10 = local_10 + 1) {\\n        if ((*local_10 == *param_3) && (iVar1 = memcmp(local_10,param_3,param_4), iVar1 == 0)) {\\n          return local_10;\\n        }\\n      }\\n      param_1 = (char *)0x0;\\n    }\\n  }\\n  return param_1;\\n}\\n\\n"
+  },
+  {
+    "function": "mkdirp",
+    "pseudocode": "\\nundefined8 mkdirp(char *param_1,__mode_t param_2,__mode_t param_3)\\n\\n{\\n  int iVar1;\\n  undefined8 uVar2;\\n  int *piVar3;\\n  stat local_10a8;\\n  char local_1018 [4104];\\n  char *local_10;\\n  \\n  iVar1 = stat(param_1,&local_10a8);\\n  if (iVar1 == 0) {\\n    if ((local_10a8.st_mode & 0xf000) == 0x4000) {\\n      uVar2 = 0;\\n    }\\n    else {\\n      piVar3 = __errno_location();\\n      *piVar3 = 0x14;\\n      weprintf(&DAT_0040a780,param_1);\\n      uVar2 = 0xffffffff;\\n    }\\n  }\\n  else {\\n    estrlcpy(local_1018,param_1,0x1000);\\n    for (local_10 = local_1018 + (local_1018[0] == '/'); *local_10 != '\\0'; local_10 = local_10 + 1)\\n    {\\n      if (*local_10 == '/') {\\n        *local_10 = '\\0';\\n        iVar1 = mkdir(local_1018,param_3);\\n        if ((iVar1 < 0) && (piVar3 = __errno_location(), *piVar3 != 0x11)) {\\n          weprintf(\\"
+  },
+  {
+    "function": "getumask",
+    "pseudocode": "\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\n__mode_t getumask(void)\\n\\n{\\n  __mode_t __mask;\\n  \\n  __mask = umask(0);\\n  umask(__mask);\\n  return __mask;\\n}\\n\\n"
+  },
+  {
+    "function": "parsemode",
+    "pseudocode": "\\nuint parsemode(char *param_1,uint param_2,uint param_3)\\n\\n{\\n  char *pcVar1;\\n  char cVar2;\\n  uint local_44;\\n  char *local_30;\\n  uint local_24;\\n  uint local_20;\\n  uint local_1c;\\n  uint local_18;\\n  int local_14;\\n  char *local_10;\\n  \\n  local_10 = param_1;\\n  local_24 = __isoc23_strtol(param_1,&local_30,8);\\n  local_44 = param_2;\\n  if (*local_30 == '\\0') {\\n    if (((int)local_24 < 0) || (0xfff < (int)local_24)) {\\n      eprintf(\\"
+  },
+  {
+    "function": "parseoffset",
+    "pseudocode": "\\nlong parseoffset(char *param_1)\\n\\n{\\n  undefined1 auVar1 [16];\\n  int iVar2;\\n  ushort **ppuVar3;\\n  int *piVar4;\\n  char *local_20;\\n  long local_18;\\n  long local_10;\\n  \\n  local_10 = 1;\\n  if ((((param_1 == (char *)0x0) || (*param_1 == '\\0')) ||\\n      (ppuVar3 = __ctype_b_loc(), ((*ppuVar3)[*param_1] & 0x2000) != 0)) ||\\n     ((*param_1 == '+' || (*param_1 == '-')))) {\\n    weprintf(\\"
+  },
+  {
+    "function": "putword",
+    "pseudocode": "\\nvoid putword(FILE *param_1,char *param_2)\\n\\n{\\n  if (first_0 == 0) {\\n    fputc(0x20,param_1);\\n  }\\n  fputs(param_2,param_1);\\n  first_0 = 0;\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "reallocarray",
+    "pseudocode": "\\nvoid * reallocarray(void *param_1,ulong param_2,ulong param_3)\\n\\n{\\n  undefined1 auVar1 [16];\\n  undefined1 auVar2 [16];\\n  int *piVar3;\\n  void *pvVar4;\\n  \\n  if ((((param_2 < 0x100000000) && (param_3 < 0x100000000)) || (param_2 == 0)) ||\\n     (auVar1._8_8_ = 0, auVar1._0_8_ = param_3, auVar2._8_8_ = 0, auVar2._0_8_ = param_2,\\n     SUB168(auVar1 * auVar2,8) == 0)) {\\n    pvVar4 = realloc(param_1,param_3 * param_2);\\n  }\\n  else {\\n    piVar3 = __errno_location();\\n    *piVar3 = 0xc;\\n    pvVar4 = (void *)0x0;\\n  }\\n  return pvVar4;\\n}\\n\\n"
+  },
+  {
+    "function": "ereallocarray",
+    "pseudocode": "\\nvoid ereallocarray(undefined8 param_1,undefined8 param_2,undefined8 param_3)\\n\\n{\\n  enreallocarray(1,param_1,param_2,param_3);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "enreallocarray",
+    "pseudocode": "\\nlong enreallocarray(undefined4 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)\\n\\n{\\n  long lVar1;\\n  \\n  lVar1 = reallocarray(param_2,param_3,param_4);\\n  if (lVar1 == 0) {\\n    enprintf(param_1,\\"
+  },
+  {
+    "function": "recurse",
+    "pseudocode": "\\nvoid recurse(int param_1,char *param_2,undefined8 param_3,undefined8 *param_4)\\n\\n{\\n  int iVar1;\\n  long lVar2;\\n  stat local_168;\\n  stat local_d8;\\n  dirent *local_40;\\n  DIR *local_38;\\n  int local_2c;\\n  undefined8 *local_28;\\n  long local_20;\\n  uint local_14;\\n  undefined8 *local_10;\\n  \\n  local_14 = 0;\\n  local_20 = param_4[0x201];\\n  if (param_1 == -100) {\\n    local_20 = estrlcpy(param_4 + 1,param_2,0x1000);\\n  }\\n  if ((*(int *)(param_4 + 0x204) == 0x50) ||\\n     ((*(int *)(param_4 + 0x204) == 0x48 && (*(int *)(param_4 + 0x203) != 0)))) {\\n    local_14 = local_14 | 0x100;\\n  }\\n  iVar1 = fstatat(param_1,param_2,&local_d8,local_14);\\n  if (iVar1 < 0) {\\n    if ((*(uint *)((long)param_4 + 0x1024) & 4) == 0) {\\n      weprintf(\\"
+  },
+  {
+    "function": "rm",
+    "pseudocode": "\\nvoid rm(int param_1,char *param_2,long param_3,undefined8 param_4,long param_5)\\n\\n{\\n  uint uVar1;\\n  uint uVar2;\\n  uint uVar3;\\n  bool bVar4;\\n  int iVar5;\\n  int *piVar6;\\n  int local_c;\\n  \\n  uVar1 = *(uint *)(param_5 + 0x1024);\\n  uVar2 = *(uint *)(param_5 + 0x1024);\\n  uVar3 = *(uint *)(param_5 + 0x1024);\\n  if (((*(uint *)(param_3 + 0x18) & 0xf000) == 0xa000) ||\\n     (iVar5 = faccessat(param_1,param_2,2,0), iVar5 == 0)) {\\n    bVar4 = true;\\n  }\\n  else {\\n    bVar4 = false;\\n  }\\n  local_c = 0;\\n  if (((*(uint *)(param_3 + 0x18) & 0xf000) == 0x4000) && (*(int *)(param_5 + 0x101c) != 0)) {\\n    piVar6 = __errno_location();\\n    *piVar6 = 0x15;\\n  }\\n  else {\\n    if ((((uVar2 & 4) == 0) && (((!bVar4 && (iVar5 = isatty(0), iVar5 != 0)) || ((uVar3 & 8) != 0)))\\n        ) && (iVar5 = confirm(\\"
+  },
+  {
+    "function": "rol",
+    "pseudocode": "\\nuint rol(uint param_1,byte param_2)\\n\\n{\\n  return param_1 << (param_2 & 0x1f) | param_1 >> 0x20 - (param_2 & 0x1f);\\n}\\n\\n"
+  },
+  {
+    "function": "processblock",
+    "pseudocode": "\\nvoid processblock(long param_1,long param_2)\\n\\n{\\n  int iVar1;\\n  uint uVar2;\\n  int iVar3;\\n  uint auStack_168 [82];\\n  int local_20;\\n  uint local_1c;\\n  uint local_18;\\n  uint local_14;\\n  uint local_10;\\n  uint local_c;\\n  \\n  for (local_20 = 0; local_20 < 0x10; local_20 = local_20 + 1) {\\n    auStack_168[local_20] = (uint)*(byte *)(param_2 + (local_20 << 2)) << 0x18;\\n    auStack_168[local_20] =\\n         (uint)*(byte *)(param_2 + (long)(local_20 << 2) + 1) << 0x10 | auStack_168[local_20];\\n    auStack_168[local_20] =\\n         (uint)*(byte *)(param_2 + (long)(local_20 << 2) + 2) << 8 | auStack_168[local_20];\\n    auStack_168[local_20] =\\n         auStack_168[local_20] | (uint)*(byte *)(param_2 + (long)(local_20 << 2) + 3);\\n  }\\n  for (; local_20 < 0x50; local_20 = local_20 + 1) {\\n    uVar2 = rol(auStack_168[local_20 + -0x10] ^\\n                auStack_168[local_20 + -3] ^ auStack_168[local_20 + -8] ^\\n                auStack_168[local_20 + -0xe],1);\\n    auStack_168[local_20] = uVar2;\\n  }\\n  local_c = *(uint *)(param_1 + 8);\\n  local_10 = *(uint *)(param_1 + 0xc);\\n  local_14 = *(uint *)(param_1 + 0x10);\\n  local_18 = *(uint *)(param_1 + 0x14);\\n  local_1c = *(uint *)(param_1 + 0x18);\\n  local_20 = 0;\\n  while (local_20 < 0x14) {\\n    iVar3 = rol(local_c,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_1c = local_1c +\\n               auStack_168[iVar1] + iVar3 + ((local_14 ^ local_18) & local_10 ^ local_18) +\\n               0x5a827999;\\n    local_10 = rol(local_10,0x1e);\\n    iVar3 = rol(local_1c,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_18 = local_18 +\\n               auStack_168[iVar1] + iVar3 + ((local_10 ^ local_14) & local_c ^ local_14) +\\n               0x5a827999;\\n    local_c = rol(local_c,0x1e);\\n    iVar3 = rol(local_18,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_14 = local_14 +\\n               auStack_168[iVar1] + iVar3 + ((local_c ^ local_10) & local_1c ^ local_10) +\\n               0x5a827999;\\n    local_1c = rol(local_1c,0x1e);\\n    iVar3 = rol(local_14,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_10 = local_10 +\\n               auStack_168[iVar1] + iVar3 + ((local_1c ^ local_c) & local_18 ^ local_c) + 0x5a827999\\n    ;\\n    local_18 = rol(local_18,0x1e);\\n    iVar3 = rol(local_10,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_c = local_c + auStack_168[iVar1] + iVar3 + ((local_18 ^ local_1c) & local_14 ^ local_1c) +\\n                        0x5a827999;\\n    local_14 = rol(local_14,0x1e);\\n  }\\n  while (local_20 < 0x28) {\\n    iVar3 = rol(local_c,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_1c = local_1c + auStack_168[iVar1] + iVar3 + (local_10 ^ local_14 ^ local_18) + 0x6ed9eba1\\n    ;\\n    local_10 = rol(local_10,0x1e);\\n    iVar3 = rol(local_1c,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_18 = local_18 + auStack_168[iVar1] + iVar3 + (local_c ^ local_10 ^ local_14) + 0x6ed9eba1;\\n    local_c = rol(local_c,0x1e);\\n    iVar3 = rol(local_18,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_14 = local_14 + auStack_168[iVar1] + iVar3 + (local_1c ^ local_c ^ local_10) + 0x6ed9eba1;\\n    local_1c = rol(local_1c,0x1e);\\n    iVar3 = rol(local_14,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_10 = local_10 + auStack_168[iVar1] + iVar3 + (local_18 ^ local_1c ^ local_c) + 0x6ed9eba1;\\n    local_18 = rol(local_18,0x1e);\\n    iVar3 = rol(local_10,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_c = local_c + auStack_168[iVar1] + iVar3 + (local_14 ^ local_18 ^ local_1c) + 0x6ed9eba1;\\n    local_14 = rol(local_14,0x1e);\\n  }\\n  while (local_20 < 0x3c) {\\n    iVar3 = rol(local_c,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_1c = local_1c +\\n               auStack_168[iVar1] + iVar3 + ((local_10 | local_14) & local_18 | local_10 & local_14)\\n               + -0x70e44324;\\n    local_10 = rol(local_10,0x1e);\\n    iVar3 = rol(local_1c,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_18 = local_18 +\\n               auStack_168[iVar1] + iVar3 + ((local_c | local_10) & local_14 | local_c & local_10) +\\n               -0x70e44324;\\n    local_c = rol(local_c,0x1e);\\n    iVar3 = rol(local_18,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_14 = local_14 +\\n               auStack_168[iVar1] + iVar3 + ((local_1c | local_c) & local_10 | local_1c & local_c) +\\n               -0x70e44324;\\n    local_1c = rol(local_1c,0x1e);\\n    iVar3 = rol(local_14,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_10 = local_10 +\\n               auStack_168[iVar1] + iVar3 + ((local_18 | local_1c) & local_c | local_18 & local_1c)\\n               + -0x70e44324;\\n    local_18 = rol(local_18,0x1e);\\n    iVar3 = rol(local_10,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_c = local_c + auStack_168[iVar1] +\\n                        iVar3 + ((local_14 | local_18) & local_1c | local_14 & local_18) +\\n                        -0x70e44324;\\n    local_14 = rol(local_14,0x1e);\\n  }\\n  while (local_20 < 0x50) {\\n    iVar3 = rol(local_c,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_1c = local_1c +\\n               auStack_168[iVar1] + iVar3 + (local_10 ^ local_14 ^ local_18) + -0x359d3e2a;\\n    local_10 = rol(local_10,0x1e);\\n    iVar3 = rol(local_1c,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_18 = local_18 + auStack_168[iVar1] + iVar3 + (local_c ^ local_10 ^ local_14) + -0x359d3e2a\\n    ;\\n    local_c = rol(local_c,0x1e);\\n    iVar3 = rol(local_18,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_14 = local_14 + auStack_168[iVar1] + iVar3 + (local_1c ^ local_c ^ local_10) + -0x359d3e2a\\n    ;\\n    local_1c = rol(local_1c,0x1e);\\n    iVar3 = rol(local_14,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_10 = local_10 + auStack_168[iVar1] + iVar3 + (local_18 ^ local_1c ^ local_c) + -0x359d3e2a\\n    ;\\n    local_18 = rol(local_18,0x1e);\\n    iVar3 = rol(local_10,5);\\n    iVar1 = local_20;\\n    local_20 = local_20 + 1;\\n    local_c = local_c + auStack_168[iVar1] + iVar3 + (local_14 ^ local_18 ^ local_1c) + -0x359d3e2a;\\n    local_14 = rol(local_14,0x1e);\\n  }\\n  *(uint *)(param_1 + 8) = *(int *)(param_1 + 8) + local_c;\\n  *(uint *)(param_1 + 0xc) = *(int *)(param_1 + 0xc) + local_10;\\n  *(uint *)(param_1 + 0x10) = *(int *)(param_1 + 0x10) + local_14;\\n  *(uint *)(param_1 + 0x14) = *(int *)(param_1 + 0x14) + local_18;\\n  *(uint *)(param_1 + 0x18) = *(int *)(param_1 + 0x18) + local_1c;\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "pad",
+    "pseudocode": "\\nvoid pad(long *param_1)\\n\\n{\\n  uint uVar1;\\n  uint local_c;\\n  \\n  uVar1 = (uint)*param_1 & 0x3f;\\n  local_c = uVar1 + 1;\\n  *(undefined1 *)((long)param_1 + (ulong)uVar1 + 0x1c) = 0x80;\\n  if (0x38 < local_c) {\\n    memset((void *)((long)param_1 + (ulong)local_c + 0x1c),0,(ulong)(0x40 - local_c));\\n    local_c = 0;\\n    processblock(param_1,(long)param_1 + 0x1c);\\n  }\\n  memset((void *)((long)param_1 + (ulong)local_c + 0x1c),0,(ulong)(0x38 - local_c));\\n  *param_1 = *param_1 * 8;\\n  *(char *)((long)param_1 + 0x54) = (char)((ulong)*param_1 >> 0x38);\\n  *(char *)((long)param_1 + 0x55) = (char)((ulong)*param_1 >> 0x30);\\n  *(char *)((long)param_1 + 0x56) = (char)((ulong)*param_1 >> 0x28);\\n  *(char *)((long)param_1 + 0x57) = (char)((ulong)*param_1 >> 0x20);\\n  *(char *)(param_1 + 0xb) = (char)((ulong)*param_1 >> 0x18);\\n  *(char *)((long)param_1 + 0x59) = (char)((ulong)*param_1 >> 0x10);\\n  *(char *)((long)param_1 + 0x5a) = (char)((ulong)*param_1 >> 8);\\n  *(char *)((long)param_1 + 0x5b) = (char)*param_1;\\n  processblock(param_1,(long)param_1 + 0x1c);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha1_init",
+    "pseudocode": "\\nvoid sha1_init(undefined8 *param_1)\\n\\n{\\n  *param_1 = 0;\\n  *(undefined4 *)(param_1 + 1) = 0x67452301;\\n  *(undefined4 *)((long)param_1 + 0xc) = 0xefcdab89;\\n  *(undefined4 *)(param_1 + 2) = 0x98badcfe;\\n  *(undefined4 *)((long)param_1 + 0x14) = 0x10325476;\\n  *(undefined4 *)(param_1 + 3) = 0xc3d2e1f0;\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha1_sum",
+    "pseudocode": "\\nvoid sha1_sum(long param_1,long param_2)\\n\\n{\\n  undefined4 local_c;\\n  \\n  pad(param_1);\\n  for (local_c = 0; local_c < 5; local_c = local_c + 1) {\\n    *(char *)(param_2 + (local_c << 2)) =\\n         (char)((uint)*(undefined4 *)(param_1 + 8 + (long)local_c * 4) >> 0x18);\\n    *(char *)(param_2 + (long)(local_c << 2) + 1) =\\n         (char)((uint)*(undefined4 *)(param_1 + 8 + (long)local_c * 4) >> 0x10);\\n    *(char *)(param_2 + (long)(local_c << 2) + 2) =\\n         (char)((uint)*(undefined4 *)(param_1 + 8 + (long)local_c * 4) >> 8);\\n    *(char *)(param_2 + (long)(local_c << 2) + 3) =\\n         (char)*(undefined4 *)(param_1 + 8 + (long)local_c * 4);\\n  }\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha1_update",
+    "pseudocode": "\\nvoid sha1_update(ulong *param_1,void *param_2,ulong param_3)\\n\\n{\\n  ulong uVar1;\\n  uint uVar2;\\n  ulong local_40;\\n  void *local_10;\\n  \\n  uVar1 = *param_1;\\n  uVar2 = (uint)uVar1 & 0x3f;\\n  *param_1 = *param_1 + param_3;\\n  local_40 = param_3;\\n  local_10 = param_2;\\n  if ((uVar1 & 0x3f) != 0) {\\n    if (param_3 < 0x40 - uVar2) {\\n      memcpy((void *)((long)param_1 + (ulong)uVar2 + 0x1c),param_2,param_3);\\n      return;\\n    }\\n    memcpy((void *)((long)param_1 + (ulong)uVar2 + 0x1c),param_2,(ulong)(0x40 - uVar2));\\n    local_40 = param_3 - (0x40 - uVar2);\\n    local_10 = (void *)((long)param_2 + (ulong)(0x40 - uVar2));\\n    processblock(param_1,(long)param_1 + 0x1c);\\n  }\\n  for (; 0x3f < local_40; local_40 = local_40 - 0x40) {\\n    processblock(param_1,local_10);\\n    local_10 = (void *)((long)local_10 + 0x40);\\n  }\\n  memcpy((void *)((long)param_1 + 0x1c),local_10,local_40);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha224_init",
+    "pseudocode": "\\nvoid sha224_init(undefined8 *param_1)\\n\\n{\\n  *param_1 = 0;\\n  *(undefined4 *)(param_1 + 1) = 0xc1059ed8;\\n  *(undefined4 *)((long)param_1 + 0xc) = 0x367cd507;\\n  *(undefined4 *)(param_1 + 2) = 0x3070dd17;\\n  *(undefined4 *)((long)param_1 + 0x14) = 0xf70e5939;\\n  *(undefined4 *)(param_1 + 3) = 0xffc00b31;\\n  *(undefined4 *)((long)param_1 + 0x1c) = 0x68581511;\\n  *(undefined4 *)(param_1 + 4) = 0x64f98fa7;\\n  *(undefined4 *)((long)param_1 + 0x24) = 0xbefa4fa4;\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha224_sum",
+    "pseudocode": "\\nvoid sha224_sum(undefined8 param_1,undefined8 param_2)\\n\\n{\\n  sha256_sum_n(param_1,param_2,7);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "ror",
+    "pseudocode": "\\nuint ror(uint param_1,byte param_2)\\n\\n{\\n  return param_1 >> (param_2 & 0x1f) | param_1 << 0x20 - (param_2 & 0x1f);\\n}\\n\\n"
+  },
+  {
+    "function": "processblock",
+    "pseudocode": "\\nvoid processblock(long param_1,long param_2)\\n\\n{\\n  uint uVar1;\\n  uint uVar2;\\n  uint uVar3;\\n  uint uVar4;\\n  uint uVar5;\\n  uint uVar6;\\n  uint auStack_148 [65];\\n  int local_44;\\n  int local_40;\\n  int local_3c;\\n  uint local_38;\\n  uint local_34;\\n  uint local_30;\\n  uint local_2c;\\n  uint local_28;\\n  uint local_24;\\n  uint local_20;\\n  uint local_1c;\\n  \\n  for (local_3c = 0; local_3c < 0x10; local_3c = local_3c + 1) {\\n    auStack_148[local_3c] = (uint)*(byte *)(param_2 + (local_3c << 2)) << 0x18;\\n    auStack_148[local_3c] =\\n         (uint)*(byte *)(param_2 + (long)(local_3c << 2) + 1) << 0x10 | auStack_148[local_3c];\\n    auStack_148[local_3c] =\\n         (uint)*(byte *)(param_2 + (long)(local_3c << 2) + 2) << 8 | auStack_148[local_3c];\\n    auStack_148[local_3c] =\\n         auStack_148[local_3c] | (uint)*(byte *)(param_2 + (long)(local_3c << 2) + 3);\\n  }\\n  for (; local_3c < 0x40; local_3c = local_3c + 1) {\\n    uVar6 = ror(auStack_148[local_3c + -2],0x11);\\n    uVar1 = ror(auStack_148[local_3c + -2],0x13);\\n    uVar4 = auStack_148[local_3c + -2];\\n    uVar5 = auStack_148[local_3c + -7];\\n    uVar2 = ror(auStack_148[local_3c + -0xf],7);\\n    uVar3 = ror(auStack_148[local_3c + -0xf],0x12);\\n    auStack_148[local_3c] =\\n         (uVar6 ^ uVar1 ^ uVar4 >> 10) + uVar5 + (auStack_148[local_3c + -0xf] >> 3 ^ uVar2 ^ uVar3)\\n         + auStack_148[local_3c + -0x10];\\n  }\\n  local_1c = *(uint *)(param_1 + 8);\\n  local_20 = *(uint *)(param_1 + 0xc);\\n  local_24 = *(uint *)(param_1 + 0x10);\\n  local_28 = *(uint *)(param_1 + 0x14);\\n  local_2c = *(uint *)(param_1 + 0x18);\\n  local_30 = *(uint *)(param_1 + 0x1c);\\n  local_34 = *(uint *)(param_1 + 0x20);\\n  local_38 = *(uint *)(param_1 + 0x24);\\n  for (local_3c = 0; local_3c < 0x40; local_3c = local_3c + 1) {\\n    uVar4 = ror(local_2c,6);\\n    uVar5 = ror(local_2c,0xb);\\n    uVar6 = ror(local_2c,0x19);\\n    local_40 = auStack_148[local_3c] +\\n               (uVar4 ^ uVar5 ^ uVar6) + local_38 + ((local_30 ^ local_34) & local_2c ^ local_34) +\\n               *(int *)(K + (long)local_3c * 4);\\n    uVar4 = ror(local_1c,2);\\n    uVar5 = ror(local_1c,0xd);\\n    uVar6 = ror(local_1c,0x16);\\n    local_44 = ((local_1c | local_20) & local_24 | local_1c & local_20) + (uVar4 ^ uVar5 ^ uVar6);\\n    local_38 = local_34;\\n    local_34 = local_30;\\n    local_30 = local_2c;\\n    local_2c = local_40 + local_28;\\n    local_28 = local_24;\\n    local_24 = local_20;\\n    local_20 = local_1c;\\n    local_1c = local_44 + local_40;\\n  }\\n  *(uint *)(param_1 + 8) = *(int *)(param_1 + 8) + local_1c;\\n  *(uint *)(param_1 + 0xc) = *(int *)(param_1 + 0xc) + local_20;\\n  *(uint *)(param_1 + 0x10) = *(int *)(param_1 + 0x10) + local_24;\\n  *(uint *)(param_1 + 0x14) = *(int *)(param_1 + 0x14) + local_28;\\n  *(uint *)(param_1 + 0x18) = *(int *)(param_1 + 0x18) + local_2c;\\n  *(uint *)(param_1 + 0x1c) = *(int *)(param_1 + 0x1c) + local_30;\\n  *(uint *)(param_1 + 0x20) = *(int *)(param_1 + 0x20) + local_34;\\n  *(uint *)(param_1 + 0x24) = *(int *)(param_1 + 0x24) + local_38;\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "pad",
+    "pseudocode": "\\nvoid pad(long *param_1)\\n\\n{\\n  uint uVar1;\\n  uint local_c;\\n  \\n  uVar1 = (uint)*param_1 & 0x3f;\\n  local_c = uVar1 + 1;\\n  *(undefined1 *)((long)param_1 + (ulong)uVar1 + 0x28) = 0x80;\\n  if (0x38 < local_c) {\\n    memset((void *)((long)param_1 + (ulong)local_c + 0x28),0,(ulong)(0x40 - local_c));\\n    local_c = 0;\\n    processblock(param_1,param_1 + 5);\\n  }\\n  memset((void *)((long)param_1 + (ulong)local_c + 0x28),0,(ulong)(0x38 - local_c));\\n  *param_1 = *param_1 * 8;\\n  *(char *)(param_1 + 0xc) = (char)((ulong)*param_1 >> 0x38);\\n  *(char *)((long)param_1 + 0x61) = (char)((ulong)*param_1 >> 0x30);\\n  *(char *)((long)param_1 + 0x62) = (char)((ulong)*param_1 >> 0x28);\\n  *(char *)((long)param_1 + 99) = (char)((ulong)*param_1 >> 0x20);\\n  *(char *)((long)param_1 + 100) = (char)((ulong)*param_1 >> 0x18);\\n  *(char *)((long)param_1 + 0x65) = (char)((ulong)*param_1 >> 0x10);\\n  *(char *)((long)param_1 + 0x66) = (char)((ulong)*param_1 >> 8);\\n  *(char *)((long)param_1 + 0x67) = (char)*param_1;\\n  processblock(param_1,param_1 + 5);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha256_init",
+    "pseudocode": "\\nvoid sha256_init(undefined8 *param_1)\\n\\n{\\n  *param_1 = 0;\\n  *(undefined4 *)(param_1 + 1) = 0x6a09e667;\\n  *(undefined4 *)((long)param_1 + 0xc) = 0xbb67ae85;\\n  *(undefined4 *)(param_1 + 2) = 0x3c6ef372;\\n  *(undefined4 *)((long)param_1 + 0x14) = 0xa54ff53a;\\n  *(undefined4 *)(param_1 + 3) = 0x510e527f;\\n  *(undefined4 *)((long)param_1 + 0x1c) = 0x9b05688c;\\n  *(undefined4 *)(param_1 + 4) = 0x1f83d9ab;\\n  *(undefined4 *)((long)param_1 + 0x24) = 0x5be0cd19;\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha256_sum_n",
+    "pseudocode": "\\nvoid sha256_sum_n(long param_1,long param_2,int param_3)\\n\\n{\\n  undefined4 local_c;\\n  \\n  pad(param_1);\\n  for (local_c = 0; local_c < param_3; local_c = local_c + 1) {\\n    *(char *)(param_2 + (local_c << 2)) =\\n         (char)((uint)*(undefined4 *)(param_1 + 8 + (long)local_c * 4) >> 0x18);\\n    *(char *)(param_2 + (long)(local_c << 2) + 1) =\\n         (char)((uint)*(undefined4 *)(param_1 + 8 + (long)local_c * 4) >> 0x10);\\n    *(char *)(param_2 + (long)(local_c << 2) + 2) =\\n         (char)((uint)*(undefined4 *)(param_1 + 8 + (long)local_c * 4) >> 8);\\n    *(char *)(param_2 + (long)(local_c << 2) + 3) =\\n         (char)*(undefined4 *)(param_1 + 8 + (long)local_c * 4);\\n  }\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha256_sum",
+    "pseudocode": "\\nvoid sha256_sum(undefined8 param_1,undefined8 param_2)\\n\\n{\\n  sha256_sum_n(param_1,param_2,8);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha256_update",
+    "pseudocode": "\\nvoid sha256_update(ulong *param_1,void *param_2,ulong param_3)\\n\\n{\\n  ulong uVar1;\\n  uint uVar2;\\n  ulong local_40;\\n  void *local_10;\\n  \\n  uVar1 = *param_1;\\n  uVar2 = (uint)uVar1 & 0x3f;\\n  *param_1 = *param_1 + param_3;\\n  local_40 = param_3;\\n  local_10 = param_2;\\n  if ((uVar1 & 0x3f) != 0) {\\n    if (param_3 < 0x40 - uVar2) {\\n      memcpy((void *)((long)param_1 + (ulong)uVar2 + 0x28),param_2,param_3);\\n      return;\\n    }\\n    memcpy((void *)((long)param_1 + (ulong)uVar2 + 0x28),param_2,(ulong)(0x40 - uVar2));\\n    local_40 = param_3 - (0x40 - uVar2);\\n    local_10 = (void *)((long)param_2 + (ulong)(0x40 - uVar2));\\n    processblock(param_1,param_1 + 5);\\n  }\\n  for (; 0x3f < local_40; local_40 = local_40 - 0x40) {\\n    processblock(param_1,local_10);\\n    local_10 = (void *)((long)local_10 + 0x40);\\n  }\\n  memcpy(param_1 + 5,local_10,local_40);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha384_init",
+    "pseudocode": "\\nvoid sha384_init(undefined8 *param_1)\\n\\n{\\n  *param_1 = 0;\\n  param_1[1] = 0xcbbb9d5dc1059ed8;\\n  param_1[2] = 0x629a292a367cd507;\\n  param_1[3] = 0x9159015a3070dd17;\\n  param_1[4] = 0x152fecd8f70e5939;\\n  param_1[5] = 0x67332667ffc00b31;\\n  param_1[6] = 0x8eb44a8768581511;\\n  param_1[7] = 0xdb0c2e0d64f98fa7;\\n  param_1[8] = 0x47b5481dbefa4fa4;\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha384_sum",
+    "pseudocode": "\\nvoid sha384_sum(undefined8 param_1,undefined8 param_2)\\n\\n{\\n  sha512_sum_n(param_1,param_2,6);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha512_224_init",
+    "pseudocode": "\\nvoid sha512_224_init(undefined8 *param_1)\\n\\n{\\n  *param_1 = 0;\\n  param_1[1] = 0x8c3d37c819544da2;\\n  param_1[2] = 0x73e1996689dcd4d6;\\n  param_1[3] = 0x1dfab7ae32ff9c82;\\n  param_1[4] = 0x679dd514582f9fcf;\\n  param_1[5] = 0xf6d2b697bd44da8;\\n  param_1[6] = 0x77e36f7304c48942;\\n  param_1[7] = 0x3f9d85a86a1d36c8;\\n  param_1[8] = 0x1112e6ad91d692a1;\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha512_224_sum",
+    "pseudocode": "\\nvoid sha512_224_sum(undefined8 param_1,void *param_2)\\n\\n{\\n  undefined1 local_28 [32];\\n  \\n  sha512_sum_n(param_1,local_28,4);\\n  memcpy(param_2,local_28,0x1c);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha512_256_init",
+    "pseudocode": "\\nvoid sha512_256_init(undefined8 *param_1)\\n\\n{\\n  *param_1 = 0;\\n  param_1[1] = 0x22312194fc2bf72c;\\n  param_1[2] = 0x9f555fa3c84c64c2;\\n  param_1[3] = 0x2393b86b6f53b151;\\n  param_1[4] = 0x963877195940eabd;\\n  param_1[5] = 0x96283ee2a88effe3;\\n  param_1[6] = 0xbe5e1e2553863992;\\n  param_1[7] = 0x2b0199fc2c85b8aa;\\n  param_1[8] = 0xeb72ddc81c52ca2;\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha512_256_sum",
+    "pseudocode": "\\nvoid sha512_256_sum(undefined8 param_1,undefined8 param_2)\\n\\n{\\n  sha512_sum_n(param_1,param_2,4);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "ror",
+    "pseudocode": "\\nulong ror(ulong param_1,byte param_2)\\n\\n{\\n  return param_1 >> (param_2 & 0x3f) | param_1 << 0x40 - (param_2 & 0x3f);\\n}\\n\\n"
+  },
+  {
+    "function": "processblock",
+    "pseudocode": "\\nvoid processblock(long param_1,long param_2)\\n\\n{\\n  ulong uVar1;\\n  ulong uVar2;\\n  ulong uVar3;\\n  ulong uVar4;\\n  ulong uVar5;\\n  ulong uVar6;\\n  ulong auStack_2f8 [81];\\n  long local_70;\\n  long local_68;\\n  int local_5c;\\n  ulong local_58;\\n  ulong local_50;\\n  ulong local_48;\\n  ulong local_40;\\n  ulong local_38;\\n  ulong local_30;\\n  ulong local_28;\\n  ulong local_20;\\n  \\n  for (local_5c = 0; local_5c < 0x10; local_5c = local_5c + 1) {\\n    auStack_2f8[local_5c] = (ulong)*(byte *)(param_2 + (local_5c << 3)) << 0x38;\\n    auStack_2f8[local_5c] =\\n         (ulong)*(byte *)(param_2 + (long)(local_5c << 3) + 1) << 0x30 | auStack_2f8[local_5c];\\n    auStack_2f8[local_5c] =\\n         (ulong)*(byte *)(param_2 + (long)(local_5c << 3) + 2) << 0x28 | auStack_2f8[local_5c];\\n    auStack_2f8[local_5c] =\\n         (ulong)*(byte *)(param_2 + (long)(local_5c << 3) + 3) << 0x20 | auStack_2f8[local_5c];\\n    auStack_2f8[local_5c] =\\n         (ulong)*(byte *)(param_2 + (long)(local_5c << 3) + 4) << 0x18 | auStack_2f8[local_5c];\\n    auStack_2f8[local_5c] =\\n         (ulong)*(byte *)(param_2 + (long)(local_5c << 3) + 5) << 0x10 | auStack_2f8[local_5c];\\n    auStack_2f8[local_5c] =\\n         (ulong)*(byte *)(param_2 + (long)(local_5c << 3) + 6) << 8 | auStack_2f8[local_5c];\\n    auStack_2f8[local_5c] =\\n         auStack_2f8[local_5c] | (ulong)*(byte *)(param_2 + (long)(local_5c << 3) + 7);\\n  }\\n  for (; local_5c < 0x50; local_5c = local_5c + 1) {\\n    uVar6 = ror(auStack_2f8[local_5c + -2],0x13);\\n    uVar1 = ror(auStack_2f8[local_5c + -2],0x3d);\\n    uVar4 = auStack_2f8[local_5c + -2];\\n    uVar5 = auStack_2f8[local_5c + -7];\\n    uVar2 = ror(auStack_2f8[local_5c + -0xf],1);\\n    uVar3 = ror(auStack_2f8[local_5c + -0xf],8);\\n    auStack_2f8[local_5c] =\\n         (uVar6 ^ uVar1 ^ uVar4 >> 6) + uVar5 + (auStack_2f8[local_5c + -0xf] >> 7 ^ uVar2 ^ uVar3)\\n         + auStack_2f8[local_5c + -0x10];\\n  }\\n  local_20 = *(ulong *)(param_1 + 8);\\n  local_28 = *(ulong *)(param_1 + 0x10);\\n  local_30 = *(ulong *)(param_1 + 0x18);\\n  local_38 = *(ulong *)(param_1 + 0x20);\\n  local_40 = *(ulong *)(param_1 + 0x28);\\n  local_48 = *(ulong *)(param_1 + 0x30);\\n  local_50 = *(ulong *)(param_1 + 0x38);\\n  local_58 = *(ulong *)(param_1 + 0x40);\\n  for (local_5c = 0; local_5c < 0x50; local_5c = local_5c + 1) {\\n    uVar4 = ror(local_40,0xe);\\n    uVar5 = ror(local_40,0x12);\\n    uVar6 = ror(local_40,0x29);\\n    local_68 = auStack_2f8[local_5c] +\\n               (uVar4 ^ uVar5 ^ uVar6) + local_58 + ((local_48 ^ local_50) & local_40 ^ local_50) +\\n               *(long *)(&K + (long)local_5c * 8);\\n    uVar4 = ror(local_20,0x1c);\\n    uVar5 = ror(local_20,0x22);\\n    uVar6 = ror(local_20,0x27);\\n    local_70 = ((local_20 | local_28) & local_30 | local_20 & local_28) + (uVar4 ^ uVar5 ^ uVar6);\\n    local_58 = local_50;\\n    local_50 = local_48;\\n    local_48 = local_40;\\n    local_40 = local_68 + local_38;\\n    local_38 = local_30;\\n    local_30 = local_28;\\n    local_28 = local_20;\\n    local_20 = local_70 + local_68;\\n  }\\n  *(ulong *)(param_1 + 8) = *(long *)(param_1 + 8) + local_20;\\n  *(ulong *)(param_1 + 0x10) = *(long *)(param_1 + 0x10) + local_28;\\n  *(ulong *)(param_1 + 0x18) = *(long *)(param_1 + 0x18) + local_30;\\n  *(ulong *)(param_1 + 0x20) = *(long *)(param_1 + 0x20) + local_38;\\n  *(ulong *)(param_1 + 0x28) = *(long *)(param_1 + 0x28) + local_40;\\n  *(ulong *)(param_1 + 0x30) = *(long *)(param_1 + 0x30) + local_48;\\n  *(ulong *)(param_1 + 0x38) = *(long *)(param_1 + 0x38) + local_50;\\n  *(ulong *)(param_1 + 0x40) = *(long *)(param_1 + 0x40) + local_58;\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "pad",
+    "pseudocode": "\\nvoid pad(long *param_1)\\n\\n{\\n  uint uVar1;\\n  uint local_c;\\n  \\n  uVar1 = (uint)*param_1 & 0x7f;\\n  local_c = uVar1 + 1;\\n  *(undefined1 *)((long)param_1 + (ulong)uVar1 + 0x48) = 0x80;\\n  if (0x70 < local_c) {\\n    memset((void *)((long)param_1 + (ulong)local_c + 0x48),0,(ulong)(0x80 - local_c));\\n    local_c = 0;\\n    processblock(param_1,param_1 + 9);\\n  }\\n  memset((void *)((long)param_1 + (ulong)local_c + 0x48),0,(ulong)(0x78 - local_c));\\n  *param_1 = *param_1 * 8;\\n  *(char *)(param_1 + 0x18) = (char)((ulong)*param_1 >> 0x38);\\n  *(char *)((long)param_1 + 0xc1) = (char)((ulong)*param_1 >> 0x30);\\n  *(char *)((long)param_1 + 0xc2) = (char)((ulong)*param_1 >> 0x28);\\n  *(char *)((long)param_1 + 0xc3) = (char)((ulong)*param_1 >> 0x20);\\n  *(char *)((long)param_1 + 0xc4) = (char)((ulong)*param_1 >> 0x18);\\n  *(char *)((long)param_1 + 0xc5) = (char)((ulong)*param_1 >> 0x10);\\n  *(char *)((long)param_1 + 0xc6) = (char)((ulong)*param_1 >> 8);\\n  *(char *)((long)param_1 + 199) = (char)*param_1;\\n  processblock(param_1,param_1 + 9);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha512_init",
+    "pseudocode": "\\nvoid sha512_init(undefined8 *param_1)\\n\\n{\\n  *param_1 = 0;\\n  param_1[1] = 0x6a09e667f3bcc908;\\n  param_1[2] = 0xbb67ae8584caa73b;\\n  param_1[3] = 0x3c6ef372fe94f82b;\\n  param_1[4] = 0xa54ff53a5f1d36f1;\\n  param_1[5] = 0x510e527fade682d1;\\n  param_1[6] = 0x9b05688c2b3e6c1f;\\n  param_1[7] = 0x1f83d9abfb41bd6b;\\n  param_1[8] = 0x5be0cd19137e2179;\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha512_sum_n",
+    "pseudocode": "\\nvoid sha512_sum_n(long param_1,long param_2,int param_3)\\n\\n{\\n  undefined4 local_c;\\n  \\n  pad(param_1);\\n  for (local_c = 0; local_c < param_3; local_c = local_c + 1) {\\n    *(char *)(param_2 + (local_c << 3)) =\\n         (char)((ulong)*(undefined8 *)(param_1 + 8 + (long)local_c * 8) >> 0x38);\\n    *(char *)(param_2 + (long)(local_c << 3) + 1) =\\n         (char)((ulong)*(undefined8 *)(param_1 + 8 + (long)local_c * 8) >> 0x30);\\n    *(char *)(param_2 + (long)(local_c << 3) + 2) =\\n         (char)((ulong)*(undefined8 *)(param_1 + 8 + (long)local_c * 8) >> 0x28);\\n    *(char *)(param_2 + (long)(local_c << 3) + 3) =\\n         (char)((ulong)*(undefined8 *)(param_1 + 8 + (long)local_c * 8) >> 0x20);\\n    *(char *)(param_2 + (long)(local_c << 3) + 4) =\\n         (char)((ulong)*(undefined8 *)(param_1 + 8 + (long)local_c * 8) >> 0x18);\\n    *(char *)(param_2 + (long)(local_c << 3) + 5) =\\n         (char)((ulong)*(undefined8 *)(param_1 + 8 + (long)local_c * 8) >> 0x10);\\n    *(char *)(param_2 + (long)(local_c << 3) + 6) =\\n         (char)((ulong)*(undefined8 *)(param_1 + 8 + (long)local_c * 8) >> 8);\\n    *(char *)(param_2 + (long)(local_c << 3) + 7) =\\n         (char)*(undefined8 *)(param_1 + 8 + (long)local_c * 8);\\n  }\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha512_sum",
+    "pseudocode": "\\nvoid sha512_sum(undefined8 param_1,undefined8 param_2)\\n\\n{\\n  sha512_sum_n(param_1,param_2,8);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "sha512_update",
+    "pseudocode": "\\nvoid sha512_update(ulong *param_1,void *param_2,ulong param_3)\\n\\n{\\n  ulong uVar1;\\n  uint uVar2;\\n  ulong local_40;\\n  void *local_10;\\n  \\n  uVar1 = *param_1;\\n  uVar2 = (uint)uVar1 & 0x7f;\\n  *param_1 = *param_1 + param_3;\\n  local_40 = param_3;\\n  local_10 = param_2;\\n  if ((uVar1 & 0x7f) != 0) {\\n    if (param_3 < 0x80 - uVar2) {\\n      memcpy((void *)((long)param_1 + (ulong)uVar2 + 0x48),param_2,param_3);\\n      return;\\n    }\\n    memcpy((void *)((long)param_1 + (ulong)uVar2 + 0x48),param_2,(ulong)(0x80 - uVar2));\\n    local_40 = param_3 - (0x80 - uVar2);\\n    local_10 = (void *)((long)param_2 + (ulong)(0x80 - uVar2));\\n    processblock(param_1,param_1 + 9);\\n  }\\n  for (; 0x7f < local_40; local_40 = local_40 - 0x80) {\\n    processblock(param_1,local_10);\\n    local_10 = (void *)((long)local_10 + 0x80);\\n  }\\n  memcpy(param_1 + 9,local_10,local_40);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "xstrcasestr",
+    "pseudocode": "\\nchar * xstrcasestr(char *param_1,char *param_2)\\n\\n{\\n  int iVar1;\\n  size_t __n;\\n  char *local_20;\\n  \\n  __n = strlen(param_2);\\n  local_20 = param_1;\\n  while( true ) {\\n    if (*local_20 == '\\0') {\\n      return (char *)0x0;\\n    }\\n    iVar1 = strncasecmp(local_20,param_2,__n);\\n    if (iVar1 == 0) break;\\n    local_20 = local_20 + 1;\\n  }\\n  return local_20;\\n}\\n\\n"
+  },
+  {
+    "function": "xstrlcat",
+    "pseudocode": "\\nlong xstrlcat(char *param_1,char *param_2,long param_3)\\n\\n{\\n  long lVar1;\\n  size_t sVar2;\\n  long local_20;\\n  char *local_18;\\n  char *local_10;\\n  \\n  local_20 = param_3;\\n  for (local_10 = param_1; (local_20 != 0 && (*local_10 != '\\0')); local_10 = local_10 + 1) {\\n    local_20 = local_20 + -1;\\n  }\\n  lVar1 = (long)local_10 - (long)param_1;\\n  local_20 = param_3 - lVar1;\\n  local_18 = param_2;\\n  if (local_20 == 0) {\\n    sVar2 = strlen(param_2);\\n  }\\n  else {\\n    for (; *local_18 != '\\0'; local_18 = local_18 + 1) {\\n      if (local_20 != 1) {\\n        *local_10 = *local_18;\\n        local_20 = local_20 + -1;\\n        local_10 = local_10 + 1;\\n      }\\n    }\\n    *local_10 = '\\0';\\n    sVar2 = (long)local_18 - (long)param_2;\\n  }\\n  return sVar2 + lVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "estrlcat",
+    "pseudocode": "\\nulong estrlcat(undefined8 param_1,undefined8 param_2,ulong param_3)\\n\\n{\\n  ulong uVar1;\\n  \\n  uVar1 = xstrlcat(param_1,param_2,param_3);\\n  if (param_3 <= uVar1) {\\n    eprintf(\\"
+  },
+  {
+    "function": "xstrlcpy",
+    "pseudocode": "\\nchar * xstrlcpy(char *param_1,char *param_2,long param_3)\\n\\n{\\n  char *pcVar1;\\n  char *pcVar2;\\n  char cVar3;\\n  long local_20;\\n  char *local_18;\\n  char *local_10;\\n  \\n  local_20 = param_3;\\n  local_18 = param_2;\\n  local_10 = param_1;\\n  if (param_3 != 0) {\\n    do {\\n      local_20 = local_20 + -1;\\n      if (local_20 == 0) break;\\n      pcVar2 = local_18 + 1;\\n      pcVar1 = local_10 + 1;\\n      *local_10 = *local_18;\\n      cVar3 = *local_10;\\n      local_18 = pcVar2;\\n      local_10 = pcVar1;\\n    } while (cVar3 != '\\0');\\n  }\\n  if (local_20 == 0) {\\n    if (param_3 != 0) {\\n      *local_10 = '\\0';\\n    }\\n    do {\\n      pcVar2 = local_18 + 1;\\n      cVar3 = *local_18;\\n      local_18 = pcVar2;\\n    } while (cVar3 != '\\0');\\n  }\\n  return local_18 + (-1 - (long)param_2);\\n}\\n\\n"
+  },
+  {
+    "function": "estrlcpy",
+    "pseudocode": "\\nulong estrlcpy(undefined8 param_1,undefined8 param_2,ulong param_3)\\n\\n{\\n  ulong uVar1;\\n  \\n  uVar1 = xstrlcpy(param_1,param_2,param_3);\\n  if (param_3 <= uVar1) {\\n    eprintf(\\"
+  },
+  {
+    "function": "strnsubst",
+    "pseudocode": "\\nvoid strnsubst(undefined8 *param_1,char *param_2,undefined *param_3,ulong param_4)\\n\\n{\\n  int iVar1;\\n  undefined1 *puVar2;\\n  size_t sVar3;\\n  char *pcVar4;\\n  size_t sVar5;\\n  undefined *local_60;\\n  long local_28;\\n  char *local_20;\\n  \\n  local_20 = (char *)*param_1;\\n  if (local_20 != (char *)0x0) {\\n    puVar2 = (undefined1 *)emalloc(param_4);\\n    local_60 = param_3;\\n    if (param_3 == (undefined *)0x0) {\\n      local_60 = &DAT_0040ac60;\\n    }\\n    if (((param_2 == (char *)0x0) || (*param_2 == '\\0')) ||\\n       (sVar3 = strlen(local_20), param_4 <= sVar3)) {\\n      xstrlcpy(puVar2,local_20,param_4);\\n    }\\n    else {\\n      *puVar2 = 0;\\n      local_28 = 0;\\n      sVar3 = strlen(param_2);\\n      for (; ((pcVar4 = strstr(local_20,param_2), pcVar4 != (char *)0x0 &&\\n              (iVar1 = snprintf(puVar2 + local_28,param_4 - local_28,\\"
+  },
+  {
+    "function": "xstrsep",
+    "pseudocode": "\\nchar * xstrsep(undefined8 *param_1,char *param_2)\\n\\n{\\n  char *__s;\\n  size_t sVar1;\\n  char *pcVar2;\\n  char *local_10;\\n  \\n  __s = (char *)*param_1;\\n  if (__s == (char *)0x0) {\\n    __s = (char *)0x0;\\n  }\\n  else {\\n    sVar1 = strcspn(__s,param_2);\\n    pcVar2 = __s + sVar1;\\n    if (*pcVar2 == '\\0') {\\n      local_10 = (char *)0x0;\\n    }\\n    else {\\n      local_10 = pcVar2 + 1;\\n      *pcVar2 = '\\0';\\n    }\\n    *param_1 = local_10;\\n  }\\n  return __s;\\n}\\n\\n"
+  },
+  {
+    "function": "xstrtonum",
+    "pseudocode": "\\nlong xstrtonum(char *param_1,long param_2,long param_3,undefined8 *param_4)\\n\\n{\\n  int *piVar1;\\n  int local_60 [2];\\n  char *local_58;\\n  undefined4 local_50;\\n  char *local_48;\\n  undefined4 local_40;\\n  char *local_38;\\n  undefined4 local_30;\\n  char *local_20;\\n  int local_14;\\n  long local_10;\\n  \\n  local_10 = 0;\\n  local_14 = 0;\\n  local_60[0] = 0;\\n  local_58 = \\"
+  },
+  {
+    "function": "enstrtonum",
+    "pseudocode": "\\nundefined8 enstrtonum(undefined4 param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)\\n\\n{\\n  long local_18;\\n  undefined8 local_10;\\n  \\n  local_10 = xstrtonum(param_2,param_3,param_4,&local_18);\\n  if (local_18 != 0) {\\n    enprintf(param_1,\\"
+  },
+  {
+    "function": "estrtonum",
+    "pseudocode": "\\nvoid estrtonum(undefined8 param_1,undefined8 param_2,undefined8 param_3)\\n\\n{\\n  enstrtonum(1,param_1,param_2,param_3);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "unescape",
+    "pseudocode": "\\nlong unescape(byte *param_1)\\n\\n{\\n  byte *pbVar1;\\n  int iVar2;\\n  ushort **ppuVar3;\\n  ulong uVar4;\\n  byte *local_38;\\n  byte *local_30;\\n  ulong local_28;\\n  long local_20;\\n  \\n  local_38 = param_1;\\n  local_30 = param_1;\\nLAB_00407389:\\n  do {\\n    while( true ) {\\n      while( true ) {\\n        while( true ) {\\n          while( true ) {\\n            if (*local_30 == 0) {\\n              *local_38 = 0;\\n              return (long)local_38 - (long)param_1;\\n            }\\n            if (*local_30 == 0x5c) break;\\n            *local_38 = *local_30;\\n            local_38 = local_38 + 1;\\n            local_30 = local_30 + 1;\\n          }\\n          pbVar1 = local_30 + 1;\\n          if (*pbVar1 != 0) break;\\n          eprintf(\\"
+  },
+  {
+    "function": "writeall",
+    "pseudocode": "\\nlong writeall(int param_1,void *param_2,size_t param_3)\\n\\n{\\n  ssize_t sVar1;\\n  size_t local_30;\\n  void *local_10;\\n  \\n  local_30 = param_3;\\n  local_10 = param_2;\\n  while( true ) {\\n    if (local_30 == 0) {\\n      return (long)local_10 - (long)param_2;\\n    }\\n    sVar1 = write(param_1,local_10,local_30);\\n    if (sVar1 < 1) break;\\n    local_10 = (void *)((long)local_10 + sVar1);\\n    local_30 = local_30 - sVar1;\\n  }\\n  return sVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "fgetrune",
+    "pseudocode": "\\nint fgetrune(undefined8 param_1,FILE *param_2)\\n\\n{\\n  int iVar1;\\n  long lVar2;\\n  undefined1 local_16 [6];\\n  int local_10;\\n  int local_c;\\n  \\n  local_c = 0;\\n  do {\\n    if ((5 < local_c) || (local_10 = fgetc(param_2), local_10 == -1)) break;\\n    lVar2 = (long)local_c;\\n    local_c = local_c + 1;\\n    local_16[lVar2] = (char)local_10;\\n    iVar1 = charntorune(param_1,local_16,(long)local_c);\\n  } while (iVar1 < 1);\\n  iVar1 = ferror(param_2);\\n  if (iVar1 != 0) {\\n    local_c = -1;\\n  }\\n  return local_c;\\n}\\n\\n"
+  },
+  {
+    "function": "efgetrune",
+    "pseudocode": "\\nint efgetrune(undefined8 param_1,undefined8 param_2,undefined8 param_3)\\n\\n{\\n  int iVar1;\\n  int *piVar2;\\n  char *pcVar3;\\n  \\n  iVar1 = fgetrune(param_1,param_2);\\n  if (iVar1 < 0) {\\n    piVar2 = __errno_location();\\n    pcVar3 = strerror(*piVar2);\\n    fprintf(stderr,\\"
+  },
+  {
+    "function": "fputrune",
+    "pseudocode": "\\nvoid fputrune(undefined8 param_1,FILE *param_2)\\n\\n{\\n  int iVar1;\\n  undefined1 local_e [6];\\n  \\n  iVar1 = runetochar(local_e,param_1);\\n  fwrite(local_e,(long)iVar1,1,param_2);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "efputrune",
+    "pseudocode": "\\nint efputrune(undefined8 param_1,undefined8 param_2,undefined8 param_3)\\n\\n{\\n  int iVar1;\\n  int *piVar2;\\n  char *pcVar3;\\n  \\n  iVar1 = fputrune(param_1,param_2);\\n  if (iVar1 < 0) {\\n    piVar2 = __errno_location();\\n    pcVar3 = strerror(*piVar2);\\n    fprintf(stderr,\\"
+  },
+  {
+    "function": "isalnumrune",
+    "pseudocode": "\\nundefined8 isalnumrune(undefined4 param_1)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = isalpharune(param_1);\\n  if ((iVar1 == 0) && (iVar1 = isdigitrune(param_1), iVar1 == 0)) {\\n    return 0;\\n  }\\n  return 1;\\n}\\n\\n"
+  },
+  {
+    "function": "isalpharune",
+    "pseudocode": "\\nuint isalpharune(int param_1)\\n\\n{\\n  uint uVar1;\\n  void *pvVar2;\\n  int local_1c [3];\\n  int *local_10;\\n  \\n  local_1c[0] = param_1;\\n  local_10 = (int *)bsearch(local_1c,alpha3,0xc2,8,rune2cmp);\\n  if (local_10 == (int *)0x0) {\\n    pvVar2 = bsearch(local_1c,alpha2,0x1ff,8,rune2cmp);\\n    if (pvVar2 == (void *)0x0) {\\n      pvVar2 = bsearch(local_1c,alpha1,0x61,4,rune1cmp);\\n      if (pvVar2 == (void *)0x0) {\\n        uVar1 = 0;\\n      }\\n      else {\\n        uVar1 = 1;\\n      }\\n    }\\n    else {\\n      uVar1 = 1;\\n    }\\n  }\\n  else {\\n    uVar1 = local_1c[0] - *local_10 & 1U ^ 1;\\n  }\\n  return uVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "isblankrune",
+    "pseudocode": "\\nundefined8 isblankrune(int param_1)\\n\\n{\\n  undefined8 uVar1;\\n  \\n  if ((param_1 == 0x20) || (param_1 == 9)) {\\n    uVar1 = 1;\\n  }\\n  else {\\n    uVar1 = 0;\\n  }\\n  return uVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "iscntrlrune",
+    "pseudocode": "\\nbool iscntrlrune(undefined4 param_1)\\n\\n{\\n  void *pvVar1;\\n  undefined4 local_c;\\n  \\n  local_c = param_1;\\n  pvVar1 = bsearch(&local_c,cntrl2,2,8,rune2cmp);\\n  return pvVar1 != (void *)0x0;\\n}\\n\\n"
+  },
+  {
+    "function": "isdigitrune",
+    "pseudocode": "\\nbool isdigitrune(undefined4 param_1)\\n\\n{\\n  void *pvVar1;\\n  undefined4 local_c;\\n  \\n  local_c = param_1;\\n  pvVar1 = bsearch(&local_c,digit2,0x40,8,rune2cmp);\\n  return pvVar1 != (void *)0x0;\\n}\\n\\n"
+  },
+  {
+    "function": "isgraphrune",
+    "pseudocode": "\\nundefined8 isgraphrune(undefined4 param_1)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = isspacerune(param_1);\\n  if ((iVar1 == 0) && (iVar1 = isprintrune(param_1), iVar1 != 0)) {\\n    return 1;\\n  }\\n  return 0;\\n}\\n\\n"
+  },
+  {
+    "function": "isprintrune",
+    "pseudocode": "\\nundefined8 isprintrune(int param_1)\\n\\n{\\n  int iVar1;\\n  undefined8 uVar2;\\n  \\n  iVar1 = iscntrlrune(param_1);\\n  if ((((iVar1 == 0) && (param_1 != 0x2028)) && (param_1 != 0x2029)) &&\\n     ((param_1 < 0xfff9 || (0xfffb < param_1)))) {\\n    uVar2 = 1;\\n  }\\n  else {\\n    uVar2 = 0;\\n  }\\n  return uVar2;\\n}\\n\\n"
+  },
+  {
+    "function": "ispunctrune",
+    "pseudocode": "\\nundefined8 ispunctrune(undefined4 param_1)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = isgraphrune(param_1);\\n  if ((iVar1 != 0) && (iVar1 = isalnumrune(param_1), iVar1 == 0)) {\\n    return 1;\\n  }\\n  return 0;\\n}\\n\\n"
+  },
+  {
+    "function": "isspacerune",
+    "pseudocode": "\\nundefined8 isspacerune(undefined4 param_1)\\n\\n{\\n  void *pvVar1;\\n  undefined8 uVar2;\\n  undefined4 local_c;\\n  \\n  local_c = param_1;\\n  pvVar1 = bsearch(&local_c,space2,4,8,rune2cmp);\\n  if (pvVar1 == (void *)0x0) {\\n    pvVar1 = bsearch(&local_c,space1,6,4,rune1cmp);\\n    if (pvVar1 == (void *)0x0) {\\n      uVar2 = 0;\\n    }\\n    else {\\n      uVar2 = 1;\\n    }\\n  }\\n  else {\\n    uVar2 = 1;\\n  }\\n  return uVar2;\\n}\\n\\n"
+  },
+  {
+    "function": "istitlerune",
+    "pseudocode": "\\nundefined8 istitlerune(undefined4 param_1)\\n\\n{\\n  void *pvVar1;\\n  undefined8 uVar2;\\n  undefined4 local_c;\\n  \\n  local_c = param_1;\\n  pvVar1 = bsearch(&local_c,title2,3,8,rune2cmp);\\n  if (pvVar1 == (void *)0x0) {\\n    pvVar1 = bsearch(&local_c,title1,7,4,rune1cmp);\\n    if (pvVar1 == (void *)0x0) {\\n      uVar2 = 0;\\n    }\\n    else {\\n      uVar2 = 1;\\n    }\\n  }\\n  else {\\n    uVar2 = 1;\\n  }\\n  return uVar2;\\n}\\n\\n"
+  },
+  {
+    "function": "isxdigitrune",
+    "pseudocode": "\\nundefined8 isxdigitrune(int param_1)\\n\\n{\\n  undefined8 uVar1;\\n  \\n  if (((param_1 < 0x30) || (0x39 < param_1)) && ((param_1 < 0x61 || (0x66 < param_1)))) {\\n    uVar1 = 0;\\n  }\\n  else {\\n    uVar1 = 1;\\n  }\\n  return uVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "islowerrune",
+    "pseudocode": "\\nuint islowerrune(int param_1)\\n\\n{\\n  uint uVar1;\\n  void *pvVar2;\\n  int local_1c [3];\\n  int *local_10;\\n  \\n  local_1c[0] = param_1;\\n  local_10 = (int *)bsearch(local_1c,lower4,0x23,8,rune2cmp);\\n  if (local_10 == (int *)0x0) {\\n    pvVar2 = bsearch(local_1c,lower2,0x74,0xc,rune2cmp);\\n    if (pvVar2 == (void *)0x0) {\\n      pvVar2 = bsearch(local_1c,lower1,0xa0,8,rune1cmp);\\n      if (pvVar2 == (void *)0x0) {\\n        uVar1 = 0;\\n      }\\n      else {\\n        uVar1 = 1;\\n      }\\n    }\\n    else {\\n      uVar1 = 1;\\n    }\\n  }\\n  else {\\n    uVar1 = local_1c[0] - *local_10 & 1U ^ 1;\\n  }\\n  return uVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "toupperrune",
+    "pseudocode": "\\nint toupperrune(int param_1)\\n\\n{\\n  void *pvVar1;\\n  int local_1c [3];\\n  int *local_10;\\n  \\n  local_1c[0] = param_1;\\n  local_10 = (int *)bsearch(local_1c,lower4,0x23,8,rune2cmp);\\n  if (local_10 == (int *)0x0) {\\n    local_10 = (int *)bsearch(local_1c,lower2,0x74,0xc,rune2cmp);\\n    if (local_10 == (int *)0x0) {\\n      pvVar1 = bsearch(local_1c,lower1,0xa0,8,rune1cmp);\\n      if (pvVar1 != (void *)0x0) {\\n        local_1c[0] = *(int *)((long)pvVar1 + 4);\\n      }\\n    }\\n    else {\\n      local_1c[0] = local_10[2] + (local_1c[0] - *local_10);\\n    }\\n  }\\n  else if ((local_1c[0] - *local_10 & 1U) == 0) {\\n    local_1c[0] = local_1c[0] + -1;\\n  }\\n  return local_1c[0];\\n}\\n\\n"
+  },
+  {
+    "function": "runetochar",
+    "pseudocode": "\\nundefined8 runetochar(byte *param_1,int *param_2)\\n\\n{\\n  int iVar1;\\n  byte bVar2;\\n  byte bVar3;\\n  byte bVar4;\\n  int iVar5;\\n  \\n  iVar1 = *param_2;\\n  iVar5 = runelen(iVar1);\\n  bVar3 = (byte)iVar1;\\n  bVar2 = (byte)(iVar1 >> 0xc);\\n  bVar4 = (byte)(iVar1 >> 6);\\n  if (iVar5 == 4) {\\n    *param_1 = (byte)(iVar1 >> 0x12) & 7 | 0xf0;\\n    param_1[1] = bVar2 & 0x3f | 0x80;\\n    param_1[2] = bVar4 & 0x3f | 0x80;\\n    param_1[3] = bVar3 & 0x3f | 0x80;\\n    return 4;\\n  }\\n  if (iVar5 < 5) {\\n    if (iVar5 == 3) {\\n      *param_1 = bVar2 & 0xf | 0xe0;\\n      param_1[1] = bVar4 & 0x3f | 0x80;\\n      param_1[2] = bVar3 & 0x3f | 0x80;\\n      return 3;\\n    }\\n    if (iVar5 < 4) {\\n      if (iVar5 == 1) {\\n        *param_1 = bVar3;\\n        return 1;\\n      }\\n      if (iVar5 == 2) {\\n        *param_1 = bVar4 & 0x1f | 0xc0;\\n        param_1[1] = bVar3 & 0x3f | 0x80;\\n        return 2;\\n      }\\n    }\\n  }\\n  return 0;\\n}\\n\\n"
+  },
+  {
+    "function": "chartorune",
+    "pseudocode": "\\nvoid chartorune(undefined8 param_1,undefined8 param_2)\\n\\n{\\n  charntorune(param_1,param_2,6);\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "charntorune",
+    "pseudocode": "\\nuint charntorune(uint *param_1,char *param_2,ulong param_3)\\n\\n{\\n  int iVar1;\\n  ulong uVar2;\\n  uint local_14;\\n  uint local_10;\\n  uint local_c;\\n  \\n  if (param_3 == 0) {\\n    return 0;\\n  }\\n  if (*param_2 < '\\0') {\\n    if (((int)*param_2 & 0xc0U) == 0x80) {\\n      local_10 = 0;\\n    }\\n    else if (((int)*param_2 & 0xe0U) == 0xc0) {\\n      local_10 = 2;\\n    }\\n    else if (((int)*param_2 & 0xf0U) == 0xe0) {\\n      local_10 = 3;\\n    }\\n    else if (((int)*param_2 & 0xf8U) == 0xf0) {\\n      local_10 = 4;\\n    }\\n    else if (((int)*param_2 & 0xfcU) == 0xf8) {\\n      local_10 = 5;\\n    }\\n    else if (((int)*param_2 & 0xfeU) == 0xfc) {\\n      local_10 = 6;\\n    }\\n    else {\\n      local_10 = 0;\\n    }\\n  }\\n  else {\\n    local_10 = 1;\\n  }\\n  if (local_10 == 6) {\\n    local_14 = (int)*param_2 & 1;\\n  }\\n  else {\\n    if (6 < local_10) {\\nLAB_00407dac:\\n      *param_1 = 0xfffd;\\n      return 1;\\n    }\\n    if (local_10 == 5) {\\n      local_14 = (int)*param_2 & 3;\\n    }\\n    else {\\n      if (5 < local_10) goto LAB_00407dac;\\n      if (local_10 == 4) {\\n        local_14 = (int)*param_2 & 7;\\n      }\\n      else {\\n        if (4 < local_10) goto LAB_00407dac;\\n        if (local_10 == 3) {\\n          local_14 = (int)*param_2 & 0xf;\\n        }\\n        else {\\n          if (3 < local_10) goto LAB_00407dac;\\n          if (local_10 == 1) {\\n            local_14 = (uint)*param_2;\\n          }\\n          else {\\n            if (local_10 != 2) goto LAB_00407dac;\\n            local_14 = (int)*param_2 & 0x1f;\\n          }\\n        }\\n      }\\n    }\\n  }\\n  local_c = 1;\\n  while( true ) {\\n    uVar2 = param_3;\\n    if (local_10 <= param_3) {\\n      uVar2 = (ulong)local_10;\\n    }\\n    if (uVar2 <= local_c) break;\\n    if (((int)param_2[local_c] & 0xc0U) != 0x80) {\\n      *param_1 = 0xfffd;\\n      return local_c;\\n    }\\n    local_14 = (int)param_2[local_c] & 0x3fU | local_14 << 6;\\n    local_c = local_c + 1;\\n  }\\n  if (local_c < local_10) {\\n    return 0;\\n  }\\n  if (((((int)local_14 < 0) || (0x10ffff < (int)local_14)) || ((local_14 & 0xfffe) == 0xfffe)) ||\\n     ((((0xd7ff < (int)local_14 && ((int)local_14 < 0xe000)) ||\\n       ((0xfdcf < (int)local_14 && ((int)local_14 < 0xfdf0)))) ||\\n      (iVar1 = runelen(local_14), iVar1 < (int)local_10)))) {\\n    local_14 = 0xfffd;\\n  }\\n  *param_1 = local_14;\\n  return local_10;\\n}\\n\\n"
+  },
+  {
+    "function": "runelen",
+    "pseudocode": "\\nundefined8 runelen(uint param_1)\\n\\n{\\n  undefined8 uVar1;\\n  \\n  if (((((int)param_1 < 0) || (0x10ffff < (int)param_1)) || ((param_1 & 0xfffe) == 0xfffe)) ||\\n     (((0xd7ff < (int)param_1 && ((int)param_1 < 0xe000)) ||\\n      ((0xfdcf < (int)param_1 && ((int)param_1 < 0xfdf0)))))) {\\n    uVar1 = 0;\\n  }\\n  else if ((int)param_1 < 0x80) {\\n    uVar1 = 1;\\n  }\\n  else if ((int)param_1 < 0x800) {\\n    uVar1 = 2;\\n  }\\n  else if ((int)param_1 < 0x10000) {\\n    uVar1 = 3;\\n  }\\n  else {\\n    uVar1 = 4;\\n  }\\n  return uVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "runenlen",
+    "pseudocode": "\\nlong runenlen(long param_1,ulong param_2)\\n\\n{\\n  int iVar1;\\n  undefined8 local_18;\\n  undefined8 local_10;\\n  \\n  local_18 = 0;\\n  for (local_10 = 0; local_10 < param_2; local_10 = local_10 + 1) {\\n    iVar1 = runelen(*(undefined4 *)(param_1 + local_10 * 4));\\n    local_18 = local_18 + iVar1;\\n  }\\n  return local_18;\\n}\\n\\n"
+  },
+  {
+    "function": "fullrune",
+    "pseudocode": "\\nbool fullrune(undefined8 param_1,undefined8 param_2)\\n\\n{\\n  int iVar1;\\n  undefined1 local_c [4];\\n  \\n  iVar1 = charntorune(local_c,param_1,param_2);\\n  return 0 < iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "rune1cmp",
+    "pseudocode": "\\nint rune1cmp(int *param_1,int *param_2)\\n\\n{\\n  return *param_1 - *param_2;\\n}\\n\\n"
+  },
+  {
+    "function": "rune2cmp",
+    "pseudocode": "\\nint rune2cmp(int *param_1,int *param_2)\\n\\n{\\n  int iVar1;\\n  \\n  iVar1 = *param_1;\\n  if ((iVar1 < *param_2) || (param_2[1] < iVar1)) {\\n    iVar1 = iVar1 - *param_2;\\n  }\\n  else {\\n    iVar1 = 0;\\n  }\\n  return iVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "isupperrune",
+    "pseudocode": "\\nuint isupperrune(int param_1)\\n\\n{\\n  uint uVar1;\\n  void *pvVar2;\\n  int local_1c [3];\\n  int *local_10;\\n  \\n  local_1c[0] = param_1;\\n  local_10 = (int *)bsearch(local_1c,upper3,0x23,8,rune2cmp);\\n  if (local_10 == (int *)0x0) {\\n    pvVar2 = bsearch(local_1c,upper2,0x50,0xc,rune2cmp);\\n    if (pvVar2 == (void *)0x0) {\\n      pvVar2 = bsearch(local_1c,upper1,0x69,8,rune1cmp);\\n      if (pvVar2 == (void *)0x0) {\\n        uVar1 = 0;\\n      }\\n      else {\\n        uVar1 = 1;\\n      }\\n    }\\n    else {\\n      uVar1 = 1;\\n    }\\n  }\\n  else {\\n    uVar1 = local_1c[0] - *local_10 & 1U ^ 1;\\n  }\\n  return uVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "tolowerrune",
+    "pseudocode": "\\nint tolowerrune(int param_1)\\n\\n{\\n  void *pvVar1;\\n  int local_1c [3];\\n  int *local_10;\\n  \\n  local_1c[0] = param_1;\\n  local_10 = (int *)bsearch(local_1c,upper3,0x23,8,rune2cmp);\\n  if (local_10 == (int *)0x0) {\\n    local_10 = (int *)bsearch(local_1c,upper2,0x50,0xc,rune2cmp);\\n    if (local_10 == (int *)0x0) {\\n      pvVar1 = bsearch(local_1c,upper1,0x69,8,rune1cmp);\\n      if (pvVar1 != (void *)0x0) {\\n        local_1c[0] = *(int *)((long)pvVar1 + 4);\\n      }\\n    }\\n    else {\\n      local_1c[0] = local_10[2] + (local_1c[0] - *local_10);\\n    }\\n  }\\n  else if ((local_1c[0] - *local_10 & 1U) == 0) {\\n    local_1c[0] = local_1c[0] + 1;\\n  }\\n  return local_1c[0];\\n}\\n\\n"
+  },
+  {
+    "function": "utfecpy",
+    "pseudocode": "\\nlong utfecpy(void *param_1,long param_2,void *param_3)\\n\\n{\\n  int iVar1;\\n  int local_1c;\\n  long local_18;\\n  size_t local_10;\\n  \\n  local_1c = 0xfffd;\\n  local_10 = 0;\\n  while (local_1c != 0) {\\n    iVar1 = charntorune(&local_1c,(long)param_3 + local_10,param_2 - (local_10 + (long)param_1));\\n    local_18 = (long)iVar1;\\n    if (local_18 == 0) break;\\n    local_10 = local_10 + local_18;\\n  }\\n  memcpy(param_1,param_3,local_10);\\n  if ((local_10 != 0) && (local_1c != 0)) {\\n    *(undefined1 *)(local_10 + (long)param_1) = 0;\\n  }\\n  return local_10 + (long)param_1;\\n}\\n\\n"
+  },
+  {
+    "function": "utflen",
+    "pseudocode": "\\nlong utflen(char *param_1)\\n\\n{\\n  int iVar1;\\n  undefined1 local_1c [4];\\n  long local_18;\\n  char *local_10;\\n  \\n  local_18 = 0;\\n  for (local_10 = param_1; *local_10 != '\\0'; local_10 = local_10 + iVar1) {\\n    iVar1 = chartorune(local_1c,local_10);\\n    local_18 = local_18 + 1;\\n  }\\n  return local_18;\\n}\\n\\n"
+  },
+  {
+    "function": "utfnlen",
+    "pseudocode": "\\nlong utfnlen(long param_1,long param_2)\\n\\n{\\n  int local_20;\\n  int local_1c;\\n  long local_18;\\n  long local_10;\\n  \\n  local_18 = 0;\\n  local_10 = param_1;\\n  while( true ) {\\n    local_1c = charntorune(&local_20,local_10,param_2 - (local_10 - param_1));\\n    if ((local_1c == 0) || (local_20 == 0)) break;\\n    local_10 = local_10 + local_1c;\\n    local_18 = local_18 + 1;\\n  }\\n  return local_18;\\n}\\n\\n"
+  },
+  {
+    "function": "utfmemlen",
+    "pseudocode": "\\nlong utfmemlen(long param_1,long param_2)\\n\\n{\\n  undefined1 local_20 [4];\\n  int local_1c;\\n  long local_18;\\n  long local_10;\\n  \\n  local_18 = 0;\\n  local_10 = param_1;\\n  while( true ) {\\n    local_1c = charntorune(local_20,local_10,param_2 - (local_10 - param_1));\\n    if (local_1c == 0) break;\\n    local_10 = local_10 + local_1c;\\n    local_18 = local_18 + 1;\\n  }\\n  return local_18;\\n}\\n\\n"
+  },
+  {
+    "function": "utfrune",
+    "pseudocode": "\\nchar * utfrune(char *param_1,int param_2)\\n\\n{\\n  char *pcVar1;\\n  int local_34;\\n  char *local_30;\\n  char local_1b [7];\\n  int local_14;\\n  int local_10;\\n  int local_c;\\n  \\n  local_34 = param_2;\\n  local_30 = param_1;\\n  if (param_2 < 0x80) {\\n    pcVar1 = strchr(param_1,param_2);\\n  }\\n  else if (param_2 == 0xfffd) {\\n    local_34 = 0xfffd;\\n    for (; *local_30 != '\\0'; local_30 = local_30 + local_10) {\\n      local_10 = chartorune(&local_14,local_30);\\n      if (local_34 == local_14) {\\n        return local_30;\\n      }\\n    }\\n    pcVar1 = (char *)0x0;\\n  }\\n  else {\\n    local_c = runetochar(local_1b,&local_34);\\n    if (local_c == 0) {\\n      pcVar1 = (char *)0x0;\\n    }\\n    else {\\n      local_1b[local_c] = '\\0';\\n      pcVar1 = strstr(local_30,local_1b);\\n    }\\n  }\\n  return pcVar1;\\n}\\n\\n"
+  },
+  {
+    "function": "utfrrune",
+    "pseudocode": "\\nchar * utfrrune(char *param_1,int param_2)\\n\\n{\\n  char *local_20;\\n  int local_18;\\n  int local_14;\\n  char *local_10;\\n  \\n  local_10 = (char *)0x0;\\n  local_20 = param_1;\\n  if (param_2 < 0x80) {\\n    local_10 = strrchr(param_1,param_2);\\n  }\\n  else {\\n    for (; *local_20 != '\\0'; local_20 = local_20 + local_14) {\\n      local_14 = chartorune(&local_18,local_20);\\n      if (param_2 == local_18) {\\n        local_10 = local_20;\\n      }\\n    }\\n  }\\n  return local_10;\\n}\\n\\n"
+  },
+  {
+    "function": "utfutf",
+    "pseudocode": "\\nchar * utfutf(char *param_1,char *param_2)\\n\\n{\\n  char *local_40;\\n  int local_2c;\\n  int local_28;\\n  undefined4 local_24;\\n  int local_20;\\n  int local_1c;\\n  char *local_18;\\n  char *local_10;\\n  \\n  chartorune(&local_24,param_2);\\n  local_40 = param_1;\\n  do {\\n    local_40 = (char *)utfrune(local_40,local_24);\\n    local_18 = param_2;\\n    local_10 = local_40;\\n    if (local_40 == (char *)0x0) {\\n      return (char *)0x0;\\n    }\\n    for (; (*local_18 != '\\0' && (*local_10 != '\\0')); local_10 = local_10 + local_1c) {\\n      local_1c = chartorune(&local_28,local_10);\\n      local_20 = chartorune(&local_2c,local_18);\\n      if (local_28 != local_2c) break;\\n      local_18 = local_18 + local_20;\\n    }\\n    if (*local_18 == '\\0') {\\n      return local_40;\\n    }\\n    local_40 = local_40 + 1;\\n  } while( true );\\n}\\n\\n"
+  },
+  {
+    "function": "utftorunestr",
+    "pseudocode": "\\nlong utftorunestr(long param_1,long param_2)\\n\\n{\\n  int iVar1;\\n  undefined8 local_20;\\n  undefined8 local_10;\\n  \\n  local_10 = 0;\\n  local_20 = param_1;\\n  while( true ) {\\n    iVar1 = chartorune(local_10 * 4 + param_2,local_20);\\n    if ((iVar1 == 0) || (*(int *)(param_2 + local_10 * 4) == 0)) break;\\n    local_20 = local_20 + iVar1;\\n    local_10 = local_10 + 1;\\n  }\\n  return local_10;\\n}\\n\\n"
+  },
+  {
+    "function": "utfntorunestr",
+    "pseudocode": "\\nlong utfntorunestr(long param_1,long param_2,long param_3)\\n\\n{\\n  int iVar1;\\n  undefined8 local_30;\\n  undefined8 local_10;\\n  \\n  local_10 = 0;\\n  local_30 = param_1;\\n  while( true ) {\\n    iVar1 = charntorune(local_10 * 4 + param_3,local_30,(param_2 + param_1) - local_30);\\n    if (iVar1 == 0) break;\\n    local_30 = local_30 + iVar1;\\n    local_10 = local_10 + 1;\\n  }\\n  return local_10;\\n}\\n\\n"
+  },
+  {
+    "function": "_fini",
+    "pseudocode": "\\nvoid _fini(void)\\n\\n{\\n  return;\\n}\\n\\n"
+  },
+  {
+    "function": "free",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid free(void *__ptr)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* free@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "utimensat",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint utimensat(int __fd,char *__path,timespec *__times,int __flags)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* utimensat@GLIBC_2.6 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "putchar",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint putchar(int __c)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* putchar@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "__libc_start_main",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n\\nvoid __libc_start_main(void)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* __libc_start_main@GLIBC_2.34 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "abort",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid abort(void)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* abort@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "__errno_location",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint * __errno_location(void)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* __errno_location@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "unlink",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint unlink(char *__name)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* unlink@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "strncmp",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint strncmp(char *__s1,char *__s2,size_t __n)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* strncmp@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "mkdir",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint mkdir(char *__path,__mode_t __mode)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* mkdir@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "toupper",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint toupper(int __c)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* toupper@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "unlinkat",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint unlinkat(int __fd,char *__name,int __flag)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* unlinkat@GLIBC_2.4 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "ferror",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint ferror(FILE *__stream)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* ferror@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "isatty",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint isatty(int __fd)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* isatty@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "strtod",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\ndouble strtod(char *__nptr,char **__endptr)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* strtod@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "faccessat",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint faccessat(int __fd,char *__file,int __type,int __flag)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* faccessat@GLIBC_2.4 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "readlink",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nssize_t readlink(char *__path,char *__buf,size_t __len)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* readlink@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "write",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nssize_t write(int __fd,void *__buf,size_t __n)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* write@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "fclose",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fclose(FILE *__stream)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* fclose@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "opendir",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nDIR * opendir(char *__name)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* opendir@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "strlen",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nsize_t strlen(char *__s)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* strlen@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "openat",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint openat(int __fd,char *__file,int __oflag,...)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* openat@GLIBC_2.4 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "strchr",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * strchr(char *__s,int __c)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* strchr@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "printf",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint printf(char *__format,...)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* printf@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "symlink",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint symlink(char *__from,char *__to)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* symlink@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "snprintf",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint snprintf(char *__s,size_t __maxlen,char *__format,...)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* snprintf@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "__isoc23_strtoll",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n\\nvoid __isoc23_strtoll(void)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* __isoc23_strtoll@GLIBC_2.38 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "strrchr",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * strrchr(char *__s,int __c)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* strrchr@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "fputs",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fputs(char *__s,FILE *__stream)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* fputs@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "memset",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * memset(void *__s,int __c,size_t __n)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* memset@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "fgetc",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fgetc(FILE *__stream)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* fgetc@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "close",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint close(int __fd)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* close@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "closedir",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint closedir(DIR *__dirp)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* closedir@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "regcomp",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint regcomp(regex_t *__preg,char *__pattern,int __cflags)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* regcomp@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "fputc",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fputc(int __c,FILE *__stream)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* fputc@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "strcspn",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nsize_t strcspn(char *__s,char *__reject)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* strcspn@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "memchr",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * memchr(void *__s,int __c,size_t __n)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* memchr@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "read",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nssize_t read(int __fd,void *__buf,size_t __nbytes)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* read@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "strndup",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * strndup(char *__string,size_t __n)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* strndup@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "memcmp",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint memcmp(void *__s1,void *__s2,size_t __n)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* memcmp@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "calloc",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * calloc(size_t __nmemb,size_t __size)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* calloc@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "strcmp",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint strcmp(char *__s1,char *__s2)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* strcmp@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "getchar",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint getchar(void)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* getchar@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "fprintf",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fprintf(FILE *__stream,char *__format,...)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* fprintf@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "__gmon_start__",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n\\nvoid __gmon_start__(void)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "umask",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\n__mode_t umask(__mode_t __mask)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* umask@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "stat",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint stat(char *__file,stat *__buf)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* stat@GLIBC_2.33 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "mknod",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint mknod(char *__path,__mode_t __mode,__dev_t __dev)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* mknod@GLIBC_2.33 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "memcpy",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * memcpy(void *__dest,void *__src,size_t __n)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* memcpy@GLIBC_2.14 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "regerror",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nsize_t regerror(int __errcode,regex_t *__preg,char *__errbuf,size_t __errbuf_size)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* regerror@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "__xpg_basename",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * __xpg_basename(char *__path)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* __xpg_basename@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "__isoc23_strtol",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n\\nvoid __isoc23_strtol(void)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* __isoc23_strtol@GLIBC_2.38 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "readdir",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\ndirent * readdir(DIR *__dirp)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* readdir@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "tolower",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint tolower(int __c)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* tolower@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "malloc",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * malloc(size_t __size)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* malloc@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "strncasecmp",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint strncasecmp(char *__s1,char *__s2,size_t __n)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* strncasecmp@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "fflush",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fflush(FILE *__stream)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* fflush@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "lchown",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint lchown(char *__file,__uid_t __owner,__gid_t __group)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* lchown@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "chown",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint chown(char *__file,__uid_t __owner,__gid_t __group)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* chown@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "realloc",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * realloc(void *__ptr,size_t __size)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* realloc@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "chmod",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint chmod(char *__file,__mode_t __mode)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* chmod@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "open",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint open(char *__file,int __oflag,...)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* open@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "access",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint access(char *__name,int __type)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* access@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "fopen",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nFILE * fopen(char *__filename,char *__modes)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* fopen@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "perror",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid perror(char *__s)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* perror@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "vfprintf",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint vfprintf(FILE *__s,char *__format,__gnuc_va_list __arg)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* vfprintf@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "fdopendir",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nDIR * fdopendir(int __fd)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* fdopendir@GLIBC_2.4 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "getline",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\n__ssize_t getline(char **__lineptr,size_t *__n,FILE *__stream)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* getline@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "creat",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint creat(char *__file,__mode_t __mode)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* creat@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "exit",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid exit(int __status)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* exit@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "fwrite",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nsize_t fwrite(void *__ptr,size_t __size,size_t __n,FILE *__s)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* fwrite@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "bsearch",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nvoid * bsearch(void *__key,void *__base,size_t __nmemb,size_t __size,__compar_fn_t __compar)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* bsearch@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "strdup",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * strdup(char *__s)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* strdup@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "strerror",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * strerror(int __errnum)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* strerror@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "strstr",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nchar * strstr(char *__haystack,char *__needle)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* strstr@GLIBC_2.2.5 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "fstatat",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nint fstatat(int __fd,char *__file,stat *__buf,int __flag)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* fstatat@GLIBC_2.33 */\\n  halt_baddata();\\n}\\n\\n"
+  },
+  {
+    "function": "__ctype_b_loc",
+    "pseudocode": "\\n/* WARNING: Control flow encountered bad instruction data */\\n/* WARNING: Unknown calling convention -- yet parameter storage is locked */\\n\\nushort ** __ctype_b_loc(void)\\n\\n{\\n                    /* WARNING: Bad instruction - Truncating control flow here */\\n                    /* __ctype_b_loc@GLIBC_2.3 */\\n  halt_baddata();\\n}\\n\\n"
+  }
+]

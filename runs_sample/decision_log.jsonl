@@ -1,0 +1,24 @@
+{"variant": "H01", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H02", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H03", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H04", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H05", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H06", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H07", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H08", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H09", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H10", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H11", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H12", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H13", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H14", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H15", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H16", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H17", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H18", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H19", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"variant": "H20", "S1": "PASS", "S3": "PASS", "S4": "PASS", "final_decision": "ACCEPT"}
+{"seq":1,"signal":"S1","artifact":"runs/s1/s1_divergence_classification.jsonl","verdict":"OUTSIDE_E_R","summary":"Two differential I/O divergences were identified and both were classified outside the expected-effect set E(R)."}
+{"seq":2,"signal":"S3","artifact":"runs/s3/s3_static_invariants_v2.jsonl","verdict":"PASS_WITH_ONE_DIFFERENCE","summary":"19 of 20 variants satisfied the static invariants; head_H08 was the sole invariant difference due to a .rodata size change from 191 to 189 bytes. Symbol sets remained unchanged."}
+{"seq":3,"signal":"S4","artifact":"runs/s4/s4_results.jsonl","verdict":"PASS","summary":"200 mutant-intent observations were executed. All 20 mutants produced at least one intent-test failure; no mutant remained without an intent failure."}
+{"seq":4,"signal":"COVERAGE","artifact":"runs/coverage/coverage_summary.json","verdict":"RECORDED","summary":"Coverage validation recorded 71% line coverage for head.c and 76% line coverage for cut.c using GCC --coverage and gcovr across the 20 frozen intent tests."}

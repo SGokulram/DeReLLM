@@ -1,0 +1,8 @@
+runs/*
+!runs_sample/
+
+*.gcda
+*.gcno
+*.o
+__pycache__/
+*.log

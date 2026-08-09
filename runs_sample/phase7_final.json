@@ -1,0 +1,22 @@
+{
+  "C01": "REJECT",
+  "C02": "ACCEPT",
+  "C03": "ACCEPT",
+  "C04": "REJECT",
+  "C05": "ACCEPT",
+  "C06": "ACCEPT",
+  "C07": "ACCEPT",
+  "C08": "ACCEPT",
+  "C09": "REJECT",
+  "C10": "ACCEPT",
+  "H01": "REJECT",
+  "H02": "REJECT",
+  "H03": "REJECT",
+  "H04": "REJECT",
+  "H05": "REJECT",
+  "H06": "ACCEPT",
+  "H07": "ACCEPT",
+  "H08": "ACCEPT",
+  "H09": "ACCEPT",
+  "H10": "REJECT"
+}
