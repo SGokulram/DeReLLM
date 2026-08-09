@@ -89,19 +89,40 @@ Expected output:
 ---
 
 ## Repository Structure
-
-\`\`\`
 derellm/
-├── sbase/              # Compiled binaries
-├── src/                # Source components
-├── runs/               # Full experiment outputs
-├── runs_sample/        # Sample outputs
-├── paper_assets/       # Figures and diagrams
-├── final_audit.sh      # Audit script
-└── README.md
-\`\`\`
+├── README.md
+├── final_audit.sh
+├── .gitignore
 
----
+├── src/                        # ALL core logic
+│   ├── static/                # ghidra / parsing
+│   ├── llm/                   # phase 7
+│   ├── rag/                   # phase 8
+│   └── decision/              # hybrid engine
+
+├── data/                       # ONLY lightweight + structured
+│   ├── sample/                # small reproducible data (IMPORTANT)
+│   │   ├── phase7_final.json
+│   │   ├── decision_log.jsonl
+│   │   └── pseudocode_dataset.json
+│   │
+│   └── README.md              # explain dataset (optional)
+
+├── artifacts/                  # generated outputs (not required for repo)
+│   ├── logs/
+│   ├── coverage/
+│   └── rag/
+
+├── binaries/                  # compiled test binaries
+│   ├── head
+│   └── cut
+
+├── paper/                     # PAPER SUPPORT
+│   ├── figures/
+│   ├── diagrams/
+│   └── tables/
+
+└── docs/                      # optional explanation
 
 ## Key Contributions
 
