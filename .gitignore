@@ -6,3 +6,4 @@ runs/*
 *.o
 __pycache__/
 *.log
+tools/*.zip
